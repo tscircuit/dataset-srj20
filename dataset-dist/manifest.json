@@ -1,0 +1,5296 @@
+{
+  "datasetName": "dataset-srj20-partial-bga-breakouts",
+  "sampleCount": 200,
+  "rule": "Every connection has exactly one endpoint on a present pad in the centered partial BGA grid. Missing BGA pads are omitted from the obstacle list. IO fanout pads are placed on board edges.",
+  "samples": [
+    {
+      "sampleName": "sample001",
+      "sourceFile": "circuits/sample001/sample001.circuit.simple-route.json",
+      "connectionCount": 20,
+      "obstacleCount": 54,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_009",
+        "bga_pin_021"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.85,
+        "maxX": 5.85,
+        "minY": -5.85,
+        "maxY": 5.85
+      }
+    },
+    {
+      "sampleName": "sample002",
+      "sourceFile": "circuits/sample002/sample002.circuit.simple-route.json",
+      "connectionCount": 18,
+      "obstacleCount": 63,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.18,
+        "maxX": 6.18,
+        "minY": -6.18,
+        "maxY": 6.18
+      }
+    },
+    {
+      "sampleName": "sample003",
+      "sourceFile": "circuits/sample003/sample003.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 82,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.685,
+        "maxX": 6.685,
+        "minY": -6.685,
+        "maxY": 6.685
+      }
+    },
+    {
+      "sampleName": "sample004",
+      "sourceFile": "circuits/sample004/sample004.circuit.simple-route.json",
+      "connectionCount": 51,
+      "obstacleCount": 128,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.135,
+        "maxX": 8.135,
+        "minY": -8.135,
+        "maxY": 8.135
+      }
+    },
+    {
+      "sampleName": "sample005",
+      "sourceFile": "circuits/sample005/sample005.circuit.simple-route.json",
+      "connectionCount": 31,
+      "obstacleCount": 122,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_078",
+        "bga_pin_079",
+        "bga_pin_080",
+        "bga_pin_088",
+        "bga_pin_089",
+        "bga_pin_090",
+        "bga_pin_098",
+        "bga_pin_099",
+        "bga_pin_100"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.835,
+        "maxX": 7.835,
+        "minY": -7.835,
+        "maxY": 7.835
+      }
+    },
+    {
+      "sampleName": "sample006",
+      "sourceFile": "circuits/sample006/sample006.circuit.simple-route.json",
+      "connectionCount": 58,
+      "obstacleCount": 158,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 100,
+      "missingBgaPadCount": 21,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_008",
+        "bga_pin_011",
+        "bga_pin_028",
+        "bga_pin_029",
+        "bga_pin_038",
+        "bga_pin_041",
+        "bga_pin_060",
+        "bga_pin_062",
+        "bga_pin_063",
+        "bga_pin_064",
+        "bga_pin_068",
+        "bga_pin_069",
+        "bga_pin_083",
+        "bga_pin_085",
+        "bga_pin_089",
+        "bga_pin_099",
+        "bga_pin_111",
+        "bga_pin_119",
+        "bga_pin_120",
+        "bga_pin_121"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.18,
+        "maxX": 9.18,
+        "minY": -9.18,
+        "maxY": 9.18
+      }
+    },
+    {
+      "sampleName": "sample007",
+      "sourceFile": "circuits/sample007/sample007.circuit.simple-route.json",
+      "connectionCount": 72,
+      "obstacleCount": 194,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 122,
+      "missingBgaPadCount": 22,
+      "missingBgaPads": [
+        "bga_pin_015",
+        "bga_pin_018",
+        "bga_pin_019",
+        "bga_pin_025",
+        "bga_pin_027",
+        "bga_pin_036",
+        "bga_pin_039",
+        "bga_pin_046",
+        "bga_pin_054",
+        "bga_pin_068",
+        "bga_pin_091",
+        "bga_pin_098",
+        "bga_pin_099",
+        "bga_pin_100",
+        "bga_pin_110",
+        "bga_pin_113",
+        "bga_pin_121",
+        "bga_pin_122",
+        "bga_pin_123",
+        "bga_pin_126",
+        "bga_pin_132",
+        "bga_pin_144"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -10.07,
+        "maxX": 10.07,
+        "minY": -10.07,
+        "maxY": 10.07
+      }
+    },
+    {
+      "sampleName": "sample008",
+      "sourceFile": "circuits/sample008/sample008.circuit.simple-route.json",
+      "connectionCount": 101,
+      "obstacleCount": 264,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_067",
+        "bga_pin_069",
+        "bga_pin_071",
+        "bga_pin_073",
+        "bga_pin_075",
+        "bga_pin_077"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.485,
+        "maxX": 11.485,
+        "minY": -11.485,
+        "maxY": 11.485
+      }
+    },
+    {
+      "sampleName": "sample009",
+      "sourceFile": "circuits/sample009/sample009.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 50,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_009",
+        "bga_pin_021"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.71,
+        "maxX": 5.71,
+        "minY": -5.71,
+        "maxY": 5.71
+      }
+    },
+    {
+      "sampleName": "sample010",
+      "sourceFile": "circuits/sample010/sample010.circuit.simple-route.json",
+      "connectionCount": 17,
+      "obstacleCount": 62,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.145,
+        "maxX": 6.145,
+        "minY": -6.145,
+        "maxY": 6.145
+      }
+    },
+    {
+      "sampleName": "sample011",
+      "sourceFile": "circuits/sample011/sample011.circuit.simple-route.json",
+      "connectionCount": 20,
+      "obstacleCount": 81,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.65,
+        "maxX": 6.65,
+        "minY": -6.65,
+        "maxY": 6.65
+      }
+    },
+    {
+      "sampleName": "sample012",
+      "sourceFile": "circuits/sample012/sample012.circuit.simple-route.json",
+      "connectionCount": 49,
+      "obstacleCount": 126,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.065,
+        "maxX": 8.065,
+        "minY": -8.065,
+        "maxY": 8.065
+      }
+    },
+    {
+      "sampleName": "sample013",
+      "sourceFile": "circuits/sample013/sample013.circuit.simple-route.json",
+      "connectionCount": 54,
+      "obstacleCount": 145,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_071",
+        "bga_pin_072",
+        "bga_pin_073",
+        "bga_pin_081",
+        "bga_pin_082",
+        "bga_pin_083",
+        "bga_pin_091",
+        "bga_pin_092",
+        "bga_pin_093"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.64,
+        "maxX": 8.64,
+        "minY": -8.64,
+        "maxY": 8.64
+      }
+    },
+    {
+      "sampleName": "sample014",
+      "sourceFile": "circuits/sample014/sample014.circuit.simple-route.json",
+      "connectionCount": 46,
+      "obstacleCount": 147,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 101,
+      "missingBgaPadCount": 20,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_010",
+        "bga_pin_020",
+        "bga_pin_026",
+        "bga_pin_030",
+        "bga_pin_032",
+        "bga_pin_035",
+        "bga_pin_036",
+        "bga_pin_038",
+        "bga_pin_039",
+        "bga_pin_041",
+        "bga_pin_048",
+        "bga_pin_054",
+        "bga_pin_058",
+        "bga_pin_060",
+        "bga_pin_062",
+        "bga_pin_068",
+        "bga_pin_079",
+        "bga_pin_112",
+        "bga_pin_120"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.76,
+        "maxX": 8.76,
+        "minY": -8.76,
+        "maxY": 8.76
+      }
+    },
+    {
+      "sampleName": "sample015",
+      "sourceFile": "circuits/sample015/sample015.circuit.simple-route.json",
+      "connectionCount": 40,
+      "obstacleCount": 163,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 123,
+      "missingBgaPadCount": 21,
+      "missingBgaPads": [
+        "bga_pin_005",
+        "bga_pin_006",
+        "bga_pin_007",
+        "bga_pin_012",
+        "bga_pin_034",
+        "bga_pin_044",
+        "bga_pin_046",
+        "bga_pin_051",
+        "bga_pin_052",
+        "bga_pin_053",
+        "bga_pin_063",
+        "bga_pin_073",
+        "bga_pin_080",
+        "bga_pin_088",
+        "bga_pin_093",
+        "bga_pin_101",
+        "bga_pin_117",
+        "bga_pin_124",
+        "bga_pin_125",
+        "bga_pin_127",
+        "bga_pin_139"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.95,
+        "maxX": 8.95,
+        "minY": -8.95,
+        "maxY": 8.95
+      }
+    },
+    {
+      "sampleName": "sample016",
+      "sourceFile": "circuits/sample016/sample016.circuit.simple-route.json",
+      "connectionCount": 84,
+      "obstacleCount": 247,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_054",
+        "bga_pin_056",
+        "bga_pin_058",
+        "bga_pin_060",
+        "bga_pin_062",
+        "bga_pin_064"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.89,
+        "maxX": 10.89,
+        "minY": -10.89,
+        "maxY": 10.89
+      }
+    },
+    {
+      "sampleName": "sample017",
+      "sourceFile": "circuits/sample017/sample017.circuit.simple-route.json",
+      "connectionCount": 12,
+      "obstacleCount": 46,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_020"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.57,
+        "maxX": 5.57,
+        "minY": -5.57,
+        "maxY": 5.57
+      }
+    },
+    {
+      "sampleName": "sample018",
+      "sourceFile": "circuits/sample018/sample018.circuit.simple-route.json",
+      "connectionCount": 15,
+      "obstacleCount": 60,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.075,
+        "maxX": 6.075,
+        "minY": -6.075,
+        "maxY": 6.075
+      }
+    },
+    {
+      "sampleName": "sample019",
+      "sourceFile": "circuits/sample019/sample019.circuit.simple-route.json",
+      "connectionCount": 40,
+      "obstacleCount": 101,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.35,
+        "maxX": 7.35,
+        "minY": -7.35,
+        "maxY": 7.35
+      }
+    },
+    {
+      "sampleName": "sample020",
+      "sourceFile": "circuits/sample020/sample020.circuit.simple-route.json",
+      "connectionCount": 46,
+      "obstacleCount": 123,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.96,
+        "maxX": 7.96,
+        "minY": -7.96,
+        "maxY": 7.96
+      }
+    },
+    {
+      "sampleName": "sample021",
+      "sourceFile": "circuits/sample021/sample021.circuit.simple-route.json",
+      "connectionCount": 45,
+      "obstacleCount": 136,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_071",
+        "bga_pin_072",
+        "bga_pin_073",
+        "bga_pin_081",
+        "bga_pin_082",
+        "bga_pin_083",
+        "bga_pin_091",
+        "bga_pin_092",
+        "bga_pin_093"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.325,
+        "maxX": 8.325,
+        "minY": -8.325,
+        "maxY": 8.325
+      }
+    },
+    {
+      "sampleName": "sample022",
+      "sourceFile": "circuits/sample022/sample022.circuit.simple-route.json",
+      "connectionCount": 34,
+      "obstacleCount": 137,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 103,
+      "missingBgaPadCount": 18,
+      "missingBgaPads": [
+        "bga_pin_006",
+        "bga_pin_012",
+        "bga_pin_015",
+        "bga_pin_029",
+        "bga_pin_038",
+        "bga_pin_040",
+        "bga_pin_046",
+        "bga_pin_055",
+        "bga_pin_057",
+        "bga_pin_064",
+        "bga_pin_065",
+        "bga_pin_074",
+        "bga_pin_082",
+        "bga_pin_089",
+        "bga_pin_094",
+        "bga_pin_110",
+        "bga_pin_116",
+        "bga_pin_118"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.34,
+        "maxX": 8.34,
+        "minY": -8.34,
+        "maxY": 8.34
+      }
+    },
+    {
+      "sampleName": "sample023",
+      "sourceFile": "circuits/sample023/sample023.circuit.simple-route.json",
+      "connectionCount": 53,
+      "obstacleCount": 178,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 125,
+      "missingBgaPadCount": 19,
+      "missingBgaPads": [
+        "bga_pin_003",
+        "bga_pin_024",
+        "bga_pin_026",
+        "bga_pin_033",
+        "bga_pin_043",
+        "bga_pin_057",
+        "bga_pin_062",
+        "bga_pin_067",
+        "bga_pin_071",
+        "bga_pin_081",
+        "bga_pin_088",
+        "bga_pin_090",
+        "bga_pin_099",
+        "bga_pin_112",
+        "bga_pin_116",
+        "bga_pin_119",
+        "bga_pin_120",
+        "bga_pin_122",
+        "bga_pin_134"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.405,
+        "maxX": 9.405,
+        "minY": -9.405,
+        "maxY": 9.405
+      }
+    },
+    {
+      "sampleName": "sample024",
+      "sourceFile": "circuits/sample024/sample024.circuit.simple-route.json",
+      "connectionCount": 66,
+      "obstacleCount": 229,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_041",
+        "bga_pin_043",
+        "bga_pin_045",
+        "bga_pin_047",
+        "bga_pin_049",
+        "bga_pin_051"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.26,
+        "maxX": 10.26,
+        "minY": -10.26,
+        "maxY": 10.26
+      }
+    },
+    {
+      "sampleName": "sample025",
+      "sourceFile": "circuits/sample025/sample025.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 55,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_020"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.885,
+        "maxX": 5.885,
+        "minY": -5.885,
+        "maxY": 5.885
+      }
+    },
+    {
+      "sampleName": "sample026",
+      "sourceFile": "circuits/sample026/sample026.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 75,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.6,
+        "maxX": 6.6,
+        "minY": -6.6,
+        "maxY": 6.6
+      }
+    },
+    {
+      "sampleName": "sample027",
+      "sourceFile": "circuits/sample027/sample027.circuit.simple-route.json",
+      "connectionCount": 38,
+      "obstacleCount": 99,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.28,
+        "maxX": 7.28,
+        "minY": -7.28,
+        "maxY": 7.28
+      }
+    },
+    {
+      "sampleName": "sample028",
+      "sourceFile": "circuits/sample028/sample028.circuit.simple-route.json",
+      "connectionCount": 44,
+      "obstacleCount": 121,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.89,
+        "maxX": 7.89,
+        "minY": -7.89,
+        "maxY": 7.89
+      }
+    },
+    {
+      "sampleName": "sample029",
+      "sourceFile": "circuits/sample029/sample029.circuit.simple-route.json",
+      "connectionCount": 35,
+      "obstacleCount": 126,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_071",
+        "bga_pin_072",
+        "bga_pin_073",
+        "bga_pin_081",
+        "bga_pin_082",
+        "bga_pin_083",
+        "bga_pin_091",
+        "bga_pin_092",
+        "bga_pin_093"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.975,
+        "maxX": 7.975,
+        "minY": -7.975,
+        "maxY": 7.975
+      }
+    },
+    {
+      "sampleName": "sample030",
+      "sourceFile": "circuits/sample030/sample030.circuit.simple-route.json",
+      "connectionCount": 59,
+      "obstacleCount": 163,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 104,
+      "missingBgaPadCount": 17,
+      "missingBgaPads": [
+        "bga_pin_002",
+        "bga_pin_003",
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_019",
+        "bga_pin_032",
+        "bga_pin_047",
+        "bga_pin_057",
+        "bga_pin_075",
+        "bga_pin_086",
+        "bga_pin_088",
+        "bga_pin_089",
+        "bga_pin_095",
+        "bga_pin_098",
+        "bga_pin_101",
+        "bga_pin_103",
+        "bga_pin_108"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.215,
+        "maxX": 9.215,
+        "minY": -9.215,
+        "maxY": 9.215
+      }
+    },
+    {
+      "sampleName": "sample031",
+      "sourceFile": "circuits/sample031/sample031.circuit.simple-route.json",
+      "connectionCount": 65,
+      "obstacleCount": 191,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 126,
+      "missingBgaPadCount": 18,
+      "missingBgaPads": [
+        "bga_pin_002",
+        "bga_pin_012",
+        "bga_pin_017",
+        "bga_pin_020",
+        "bga_pin_021",
+        "bga_pin_022",
+        "bga_pin_032",
+        "bga_pin_035",
+        "bga_pin_036",
+        "bga_pin_047",
+        "bga_pin_057",
+        "bga_pin_070",
+        "bga_pin_073",
+        "bga_pin_079",
+        "bga_pin_083",
+        "bga_pin_084",
+        "bga_pin_106",
+        "bga_pin_117"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.825,
+        "maxX": 9.825,
+        "minY": -9.825,
+        "maxY": 9.825
+      }
+    },
+    {
+      "sampleName": "sample032",
+      "sourceFile": "circuits/sample032/sample032.circuit.simple-route.json",
+      "connectionCount": 108,
+      "obstacleCount": 271,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_028",
+        "bga_pin_030",
+        "bga_pin_032",
+        "bga_pin_034",
+        "bga_pin_036",
+        "bga_pin_038"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.73,
+        "maxX": 11.73,
+        "minY": -11.73,
+        "maxY": 11.73
+      }
+    },
+    {
+      "sampleName": "sample033",
+      "sourceFile": "circuits/sample033/sample033.circuit.simple-route.json",
+      "connectionCount": 18,
+      "obstacleCount": 52,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_020"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.78,
+        "maxX": 5.78,
+        "minY": -5.78,
+        "maxY": 5.78
+      }
+    },
+    {
+      "sampleName": "sample034",
+      "sourceFile": "circuits/sample034/sample034.circuit.simple-route.json",
+      "connectionCount": 29,
+      "obstacleCount": 74,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.565,
+        "maxX": 6.565,
+        "minY": -6.565,
+        "maxY": 6.565
+      }
+    },
+    {
+      "sampleName": "sample035",
+      "sourceFile": "circuits/sample035/sample035.circuit.simple-route.json",
+      "connectionCount": 36,
+      "obstacleCount": 97,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.21,
+        "maxX": 7.21,
+        "minY": -7.21,
+        "maxY": 7.21
+      }
+    },
+    {
+      "sampleName": "sample036",
+      "sourceFile": "circuits/sample036/sample036.circuit.simple-route.json",
+      "connectionCount": 42,
+      "obstacleCount": 119,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.82,
+        "maxX": 7.82,
+        "minY": -7.82,
+        "maxY": 7.82
+      }
+    },
+    {
+      "sampleName": "sample037",
+      "sourceFile": "circuits/sample037/sample037.circuit.simple-route.json",
+      "connectionCount": 58,
+      "obstacleCount": 149,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_018",
+        "bga_pin_019",
+        "bga_pin_020",
+        "bga_pin_028",
+        "bga_pin_029",
+        "bga_pin_030"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.78,
+        "maxX": 8.78,
+        "minY": -8.78,
+        "maxY": 8.78
+      }
+    },
+    {
+      "sampleName": "sample038",
+      "sourceFile": "circuits/sample038/sample038.circuit.simple-route.json",
+      "connectionCount": 47,
+      "obstacleCount": 152,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 105,
+      "missingBgaPadCount": 16,
+      "missingBgaPads": [
+        "bga_pin_002",
+        "bga_pin_014",
+        "bga_pin_015",
+        "bga_pin_026",
+        "bga_pin_027",
+        "bga_pin_029",
+        "bga_pin_045",
+        "bga_pin_048",
+        "bga_pin_050",
+        "bga_pin_056",
+        "bga_pin_091",
+        "bga_pin_092",
+        "bga_pin_095",
+        "bga_pin_096",
+        "bga_pin_105",
+        "bga_pin_107"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.795,
+        "maxX": 8.795,
+        "minY": -8.795,
+        "maxY": 8.795
+      }
+    },
+    {
+      "sampleName": "sample039",
+      "sourceFile": "circuits/sample039/sample039.circuit.simple-route.json",
+      "connectionCount": 78,
+      "obstacleCount": 206,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 128,
+      "missingBgaPadCount": 16,
+      "missingBgaPads": [
+        "bga_pin_006",
+        "bga_pin_013",
+        "bga_pin_020",
+        "bga_pin_022",
+        "bga_pin_024",
+        "bga_pin_041",
+        "bga_pin_052",
+        "bga_pin_058",
+        "bga_pin_065",
+        "bga_pin_070",
+        "bga_pin_083",
+        "bga_pin_094",
+        "bga_pin_097",
+        "bga_pin_103",
+        "bga_pin_108",
+        "bga_pin_134"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -10.28,
+        "maxX": 10.28,
+        "minY": -10.28,
+        "maxY": 10.28
+      }
+    },
+    {
+      "sampleName": "sample040",
+      "sourceFile": "circuits/sample040/sample040.circuit.simple-route.json",
+      "connectionCount": 91,
+      "obstacleCount": 254,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_015",
+        "bga_pin_017",
+        "bga_pin_019",
+        "bga_pin_021",
+        "bga_pin_023",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.135,
+        "maxX": 11.135,
+        "minY": -11.135,
+        "maxY": 11.135
+      }
+    },
+    {
+      "sampleName": "sample041",
+      "sourceFile": "circuits/sample041/sample041.circuit.simple-route.json",
+      "connectionCount": 14,
+      "obstacleCount": 48,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_011",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.64,
+        "maxX": 5.64,
+        "minY": -5.64,
+        "maxY": 5.64
+      }
+    },
+    {
+      "sampleName": "sample042",
+      "sourceFile": "circuits/sample042/sample042.circuit.simple-route.json",
+      "connectionCount": 28,
+      "obstacleCount": 73,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.53,
+        "maxX": 6.53,
+        "minY": -6.53,
+        "maxY": 6.53
+      }
+    },
+    {
+      "sampleName": "sample043",
+      "sourceFile": "circuits/sample043/sample043.circuit.simple-route.json",
+      "connectionCount": 35,
+      "obstacleCount": 96,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.175,
+        "maxX": 7.175,
+        "minY": -7.175,
+        "maxY": 7.175
+      }
+    },
+    {
+      "sampleName": "sample044",
+      "sourceFile": "circuits/sample044/sample044.circuit.simple-route.json",
+      "connectionCount": 40,
+      "obstacleCount": 117,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.75,
+        "maxX": 7.75,
+        "minY": -7.75,
+        "maxY": 7.75
+      }
+    },
+    {
+      "sampleName": "sample045",
+      "sourceFile": "circuits/sample045/sample045.circuit.simple-route.json",
+      "connectionCount": 49,
+      "obstacleCount": 140,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_018",
+        "bga_pin_019",
+        "bga_pin_020",
+        "bga_pin_028",
+        "bga_pin_029",
+        "bga_pin_030"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.465,
+        "maxX": 8.465,
+        "minY": -8.465,
+        "maxY": 8.465
+      }
+    },
+    {
+      "sampleName": "sample046",
+      "sourceFile": "circuits/sample046/sample046.circuit.simple-route.json",
+      "connectionCount": 35,
+      "obstacleCount": 142,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 107,
+      "missingBgaPadCount": 14,
+      "missingBgaPads": [
+        "bga_pin_014",
+        "bga_pin_016",
+        "bga_pin_017",
+        "bga_pin_039",
+        "bga_pin_042",
+        "bga_pin_046",
+        "bga_pin_057",
+        "bga_pin_061",
+        "bga_pin_070",
+        "bga_pin_078",
+        "bga_pin_079",
+        "bga_pin_094",
+        "bga_pin_099",
+        "bga_pin_100"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.375,
+        "maxX": 8.375,
+        "minY": -8.375,
+        "maxY": 8.375
+      }
+    },
+    {
+      "sampleName": "sample047",
+      "sourceFile": "circuits/sample047/sample047.circuit.simple-route.json",
+      "connectionCount": 44,
+      "obstacleCount": 174,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 130,
+      "missingBgaPadCount": 14,
+      "missingBgaPads": [
+        "bga_pin_004",
+        "bga_pin_014",
+        "bga_pin_034",
+        "bga_pin_050",
+        "bga_pin_068",
+        "bga_pin_102",
+        "bga_pin_103",
+        "bga_pin_104",
+        "bga_pin_108",
+        "bga_pin_119",
+        "bga_pin_126",
+        "bga_pin_127",
+        "bga_pin_135",
+        "bga_pin_136"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.09,
+        "maxX": 9.09,
+        "minY": -9.09,
+        "maxY": 9.09
+      }
+    },
+    {
+      "sampleName": "sample048",
+      "sourceFile": "circuits/sample048/sample048.circuit.simple-route.json",
+      "connectionCount": 74,
+      "obstacleCount": 237,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_015",
+        "bga_pin_017",
+        "bga_pin_019",
+        "bga_pin_021",
+        "bga_pin_023",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.54,
+        "maxX": 10.54,
+        "minY": -10.54,
+        "maxY": 10.54
+      }
+    },
+    {
+      "sampleName": "sample049",
+      "sourceFile": "circuits/sample049/sample049.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 57,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_011",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.955,
+        "maxX": 5.955,
+        "minY": -5.955,
+        "maxY": 5.955
+      }
+    },
+    {
+      "sampleName": "sample050",
+      "sourceFile": "circuits/sample050/sample050.circuit.simple-route.json",
+      "connectionCount": 26,
+      "obstacleCount": 71,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.46,
+        "maxX": 6.46,
+        "minY": -6.46,
+        "maxY": 6.46
+      }
+    },
+    {
+      "sampleName": "sample051",
+      "sourceFile": "circuits/sample051/sample051.circuit.simple-route.json",
+      "connectionCount": 33,
+      "obstacleCount": 94,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.105,
+        "maxX": 7.105,
+        "minY": -7.105,
+        "maxY": 7.105
+      }
+    },
+    {
+      "sampleName": "sample052",
+      "sourceFile": "circuits/sample052/sample052.circuit.simple-route.json",
+      "connectionCount": 38,
+      "obstacleCount": 115,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.68,
+        "maxX": 7.68,
+        "minY": -7.68,
+        "maxY": 7.68
+      }
+    },
+    {
+      "sampleName": "sample053",
+      "sourceFile": "circuits/sample053/sample053.circuit.simple-route.json",
+      "connectionCount": 39,
+      "obstacleCount": 130,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_018",
+        "bga_pin_019",
+        "bga_pin_020",
+        "bga_pin_028",
+        "bga_pin_029",
+        "bga_pin_030"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.115,
+        "maxX": 8.115,
+        "minY": -8.115,
+        "maxY": 8.115
+      }
+    },
+    {
+      "sampleName": "sample054",
+      "sourceFile": "circuits/sample054/sample054.circuit.simple-route.json",
+      "connectionCount": 61,
+      "obstacleCount": 169,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 108,
+      "missingBgaPadCount": 13,
+      "missingBgaPads": [
+        "bga_pin_016",
+        "bga_pin_021",
+        "bga_pin_024",
+        "bga_pin_027",
+        "bga_pin_045",
+        "bga_pin_047",
+        "bga_pin_051",
+        "bga_pin_054",
+        "bga_pin_068",
+        "bga_pin_069",
+        "bga_pin_071",
+        "bga_pin_081",
+        "bga_pin_089"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.285,
+        "maxX": 9.285,
+        "minY": -9.285,
+        "maxY": 9.285
+      }
+    },
+    {
+      "sampleName": "sample055",
+      "sourceFile": "circuits/sample055/sample055.circuit.simple-route.json",
+      "connectionCount": 57,
+      "obstacleCount": 188,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 131,
+      "missingBgaPadCount": 13,
+      "missingBgaPads": [
+        "bga_pin_037",
+        "bga_pin_048",
+        "bga_pin_050",
+        "bga_pin_070",
+        "bga_pin_081",
+        "bga_pin_084",
+        "bga_pin_088",
+        "bga_pin_105",
+        "bga_pin_117",
+        "bga_pin_125",
+        "bga_pin_132",
+        "bga_pin_135",
+        "bga_pin_140"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.545,
+        "maxX": 9.545,
+        "minY": -9.545,
+        "maxY": 9.545
+      }
+    },
+    {
+      "sampleName": "sample056",
+      "sourceFile": "circuits/sample056/sample056.circuit.simple-route.json",
+      "connectionCount": 57,
+      "obstacleCount": 220,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_145",
+        "bga_pin_147",
+        "bga_pin_149",
+        "bga_pin_151",
+        "bga_pin_153",
+        "bga_pin_155"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.945,
+        "maxX": 9.945,
+        "minY": -9.945,
+        "maxY": 9.945
+      }
+    },
+    {
+      "sampleName": "sample057",
+      "sourceFile": "circuits/sample057/sample057.circuit.simple-route.json",
+      "connectionCount": 19,
+      "obstacleCount": 53,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_011",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.815,
+        "maxX": 5.815,
+        "minY": -5.815,
+        "maxY": 5.815
+      }
+    },
+    {
+      "sampleName": "sample058",
+      "sourceFile": "circuits/sample058/sample058.circuit.simple-route.json",
+      "connectionCount": 25,
+      "obstacleCount": 70,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.425,
+        "maxX": 6.425,
+        "minY": -6.425,
+        "maxY": 6.425
+      }
+    },
+    {
+      "sampleName": "sample059",
+      "sourceFile": "circuits/sample059/sample059.circuit.simple-route.json",
+      "connectionCount": 31,
+      "obstacleCount": 92,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.035,
+        "maxX": 7.035,
+        "minY": -7.035,
+        "maxY": 7.035
+      }
+    },
+    {
+      "sampleName": "sample060",
+      "sourceFile": "circuits/sample060/sample060.circuit.simple-route.json",
+      "connectionCount": 35,
+      "obstacleCount": 112,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.575,
+        "maxX": 7.575,
+        "minY": -7.575,
+        "maxY": 7.575
+      }
+    },
+    {
+      "sampleName": "sample061",
+      "sourceFile": "circuits/sample061/sample061.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 121,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_018",
+        "bga_pin_019",
+        "bga_pin_020",
+        "bga_pin_028",
+        "bga_pin_029",
+        "bga_pin_030"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.8,
+        "maxX": 7.8,
+        "minY": -7.8,
+        "maxY": 7.8
+      }
+    },
+    {
+      "sampleName": "sample062",
+      "sourceFile": "circuits/sample062/sample062.circuit.simple-route.json",
+      "connectionCount": 48,
+      "obstacleCount": 157,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 109,
+      "missingBgaPadCount": 12,
+      "missingBgaPads": [
+        "bga_pin_003",
+        "bga_pin_004",
+        "bga_pin_007",
+        "bga_pin_010",
+        "bga_pin_012",
+        "bga_pin_016",
+        "bga_pin_021",
+        "bga_pin_024",
+        "bga_pin_046",
+        "bga_pin_068",
+        "bga_pin_073",
+        "bga_pin_079"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.83,
+        "maxX": 8.83,
+        "minY": -8.83,
+        "maxY": 8.83
+      }
+    },
+    {
+      "sampleName": "sample063",
+      "sourceFile": "circuits/sample063/sample063.circuit.simple-route.json",
+      "connectionCount": 60,
+      "obstacleCount": 173,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 113,
+      "missingBgaPadCount": 31,
+      "missingBgaPads": [
+        "bga_pin_005",
+        "bga_pin_012",
+        "bga_pin_015",
+        "bga_pin_016",
+        "bga_pin_019",
+        "bga_pin_023",
+        "bga_pin_026",
+        "bga_pin_028",
+        "bga_pin_038",
+        "bga_pin_044",
+        "bga_pin_045",
+        "bga_pin_048",
+        "bga_pin_050",
+        "bga_pin_051",
+        "bga_pin_052",
+        "bga_pin_058",
+        "bga_pin_064",
+        "bga_pin_065",
+        "bga_pin_087",
+        "bga_pin_095",
+        "bga_pin_099",
+        "bga_pin_100",
+        "bga_pin_103",
+        "bga_pin_111",
+        "bga_pin_123",
+        "bga_pin_126",
+        "bga_pin_129",
+        "bga_pin_131",
+        "bga_pin_135",
+        "bga_pin_140",
+        "bga_pin_141"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.65,
+        "maxX": 9.65,
+        "minY": -9.65,
+        "maxY": 9.65
+      }
+    },
+    {
+      "sampleName": "sample064",
+      "sourceFile": "circuits/sample064/sample064.circuit.simple-route.json",
+      "connectionCount": 99,
+      "obstacleCount": 262,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_132",
+        "bga_pin_134",
+        "bga_pin_136",
+        "bga_pin_138",
+        "bga_pin_140",
+        "bga_pin_142"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.415,
+        "maxX": 11.415,
+        "minY": -11.415,
+        "maxY": 11.415
+      }
+    },
+    {
+      "sampleName": "sample065",
+      "sourceFile": "circuits/sample065/sample065.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 50,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_022"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.71,
+        "maxX": 5.71,
+        "minY": -5.71,
+        "maxY": 5.71
+      }
+    },
+    {
+      "sampleName": "sample066",
+      "sourceFile": "circuits/sample066/sample066.circuit.simple-route.json",
+      "connectionCount": 24,
+      "obstacleCount": 69,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.39,
+        "maxX": 6.39,
+        "minY": -6.39,
+        "maxY": 6.39
+      }
+    },
+    {
+      "sampleName": "sample067",
+      "sourceFile": "circuits/sample067/sample067.circuit.simple-route.json",
+      "connectionCount": 29,
+      "obstacleCount": 90,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.965,
+        "maxX": 6.965,
+        "minY": -6.965,
+        "maxY": 6.965
+      }
+    },
+    {
+      "sampleName": "sample068",
+      "sourceFile": "circuits/sample068/sample068.circuit.simple-route.json",
+      "connectionCount": 33,
+      "obstacleCount": 110,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.505,
+        "maxX": 7.505,
+        "minY": -7.505,
+        "maxY": 7.505
+      }
+    },
+    {
+      "sampleName": "sample069",
+      "sourceFile": "circuits/sample069/sample069.circuit.simple-route.json",
+      "connectionCount": 53,
+      "obstacleCount": 144,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_002",
+        "bga_pin_003",
+        "bga_pin_011",
+        "bga_pin_012",
+        "bga_pin_013",
+        "bga_pin_021",
+        "bga_pin_022",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.605,
+        "maxX": 8.605,
+        "minY": -8.605,
+        "maxY": 8.605
+      }
+    },
+    {
+      "sampleName": "sample070",
+      "sourceFile": "circuits/sample070/sample070.circuit.simple-route.json",
+      "connectionCount": 75,
+      "obstacleCount": 186,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 111,
+      "missingBgaPadCount": 10,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_008",
+        "bga_pin_017",
+        "bga_pin_037",
+        "bga_pin_040",
+        "bga_pin_046",
+        "bga_pin_066",
+        "bga_pin_089",
+        "bga_pin_105",
+        "bga_pin_121"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.775,
+        "maxX": 9.775,
+        "minY": -9.775,
+        "maxY": 9.775
+      }
+    },
+    {
+      "sampleName": "sample071",
+      "sourceFile": "circuits/sample071/sample071.circuit.simple-route.json",
+      "connectionCount": 71,
+      "obstacleCount": 185,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 114,
+      "missingBgaPadCount": 30,
+      "missingBgaPads": [
+        "bga_pin_005",
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_016",
+        "bga_pin_020",
+        "bga_pin_023",
+        "bga_pin_045",
+        "bga_pin_046",
+        "bga_pin_054",
+        "bga_pin_060",
+        "bga_pin_062",
+        "bga_pin_071",
+        "bga_pin_078",
+        "bga_pin_079",
+        "bga_pin_081",
+        "bga_pin_082",
+        "bga_pin_098",
+        "bga_pin_100",
+        "bga_pin_101",
+        "bga_pin_102",
+        "bga_pin_103",
+        "bga_pin_104",
+        "bga_pin_107",
+        "bga_pin_108",
+        "bga_pin_120",
+        "bga_pin_123",
+        "bga_pin_130",
+        "bga_pin_133",
+        "bga_pin_142",
+        "bga_pin_143"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -10.035,
+        "maxX": 10.035,
+        "minY": -10.035,
+        "maxY": 10.035
+      }
+    },
+    {
+      "sampleName": "sample072",
+      "sourceFile": "circuits/sample072/sample072.circuit.simple-route.json",
+      "connectionCount": 81,
+      "obstacleCount": 244,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_119",
+        "bga_pin_121",
+        "bga_pin_123",
+        "bga_pin_125",
+        "bga_pin_127",
+        "bga_pin_129"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.785,
+        "maxX": 10.785,
+        "minY": -10.785,
+        "maxY": 10.785
+      }
+    },
+    {
+      "sampleName": "sample073",
+      "sourceFile": "circuits/sample073/sample073.circuit.simple-route.json",
+      "connectionCount": 12,
+      "obstacleCount": 46,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_022"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.57,
+        "maxX": 5.57,
+        "minY": -5.57,
+        "maxY": 5.57
+      }
+    },
+    {
+      "sampleName": "sample074",
+      "sourceFile": "circuits/sample074/sample074.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 68,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.355,
+        "maxX": 6.355,
+        "minY": -6.355,
+        "maxY": 6.355
+      }
+    },
+    {
+      "sampleName": "sample075",
+      "sourceFile": "circuits/sample075/sample075.circuit.simple-route.json",
+      "connectionCount": 28,
+      "obstacleCount": 89,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.93,
+        "maxX": 6.93,
+        "minY": -6.93,
+        "maxY": 6.93
+      }
+    },
+    {
+      "sampleName": "sample076",
+      "sourceFile": "circuits/sample076/sample076.circuit.simple-route.json",
+      "connectionCount": 31,
+      "obstacleCount": 108,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.435,
+        "maxX": 7.435,
+        "minY": -7.435,
+        "maxY": 7.435
+      }
+    },
+    {
+      "sampleName": "sample077",
+      "sourceFile": "circuits/sample077/sample077.circuit.simple-route.json",
+      "connectionCount": 44,
+      "obstacleCount": 135,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_002",
+        "bga_pin_003",
+        "bga_pin_011",
+        "bga_pin_012",
+        "bga_pin_013",
+        "bga_pin_021",
+        "bga_pin_022",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.29,
+        "maxX": 8.29,
+        "minY": -8.29,
+        "maxY": 8.29
+      }
+    },
+    {
+      "sampleName": "sample078",
+      "sourceFile": "circuits/sample078/sample078.circuit.simple-route.json",
+      "connectionCount": 53,
+      "obstacleCount": 148,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 95,
+      "missingBgaPadCount": 26,
+      "missingBgaPads": [
+        "bga_pin_007",
+        "bga_pin_011",
+        "bga_pin_016",
+        "bga_pin_019",
+        "bga_pin_024",
+        "bga_pin_028",
+        "bga_pin_030",
+        "bga_pin_032",
+        "bga_pin_035",
+        "bga_pin_041",
+        "bga_pin_043",
+        "bga_pin_048",
+        "bga_pin_051",
+        "bga_pin_053",
+        "bga_pin_065",
+        "bga_pin_070",
+        "bga_pin_076",
+        "bga_pin_090",
+        "bga_pin_097",
+        "bga_pin_098",
+        "bga_pin_101",
+        "bga_pin_102",
+        "bga_pin_103",
+        "bga_pin_108",
+        "bga_pin_115",
+        "bga_pin_121"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.005,
+        "maxX": 9.005,
+        "minY": -9.005,
+        "maxY": 9.005
+      }
+    },
+    {
+      "sampleName": "sample079",
+      "sourceFile": "circuits/sample079/sample079.circuit.simple-route.json",
+      "connectionCount": 41,
+      "obstacleCount": 157,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 116,
+      "missingBgaPadCount": 28,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_007",
+        "bga_pin_011",
+        "bga_pin_013",
+        "bga_pin_020",
+        "bga_pin_028",
+        "bga_pin_030",
+        "bga_pin_044",
+        "bga_pin_047",
+        "bga_pin_049",
+        "bga_pin_053",
+        "bga_pin_058",
+        "bga_pin_064",
+        "bga_pin_067",
+        "bga_pin_072",
+        "bga_pin_073",
+        "bga_pin_075",
+        "bga_pin_077",
+        "bga_pin_082",
+        "bga_pin_084",
+        "bga_pin_098",
+        "bga_pin_105",
+        "bga_pin_112",
+        "bga_pin_123",
+        "bga_pin_124",
+        "bga_pin_125",
+        "bga_pin_139",
+        "bga_pin_143"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.985,
+        "maxX": 8.985,
+        "minY": -8.985,
+        "maxY": 8.985
+      }
+    },
+    {
+      "sampleName": "sample080",
+      "sourceFile": "circuits/sample080/sample080.circuit.simple-route.json",
+      "connectionCount": 64,
+      "obstacleCount": 227,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_106",
+        "bga_pin_108",
+        "bga_pin_110",
+        "bga_pin_112",
+        "bga_pin_114",
+        "bga_pin_116"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.19,
+        "maxX": 10.19,
+        "minY": -10.19,
+        "maxY": 10.19
+      }
+    },
+    {
+      "sampleName": "sample081",
+      "sourceFile": "circuits/sample081/sample081.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 55,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_022"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.885,
+        "maxX": 5.885,
+        "minY": -5.885,
+        "maxY": 5.885
+      }
+    },
+    {
+      "sampleName": "sample082",
+      "sourceFile": "circuits/sample082/sample082.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 66,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.285,
+        "maxX": 6.285,
+        "minY": -6.285,
+        "maxY": 6.285
+      }
+    },
+    {
+      "sampleName": "sample083",
+      "sourceFile": "circuits/sample083/sample083.circuit.simple-route.json",
+      "connectionCount": 26,
+      "obstacleCount": 87,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.86,
+        "maxX": 6.86,
+        "minY": -6.86,
+        "maxY": 6.86
+      }
+    },
+    {
+      "sampleName": "sample084",
+      "sourceFile": "circuits/sample084/sample084.circuit.simple-route.json",
+      "connectionCount": 29,
+      "obstacleCount": 106,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.365,
+        "maxX": 7.365,
+        "minY": -7.365,
+        "maxY": 7.365
+      }
+    },
+    {
+      "sampleName": "sample085",
+      "sourceFile": "circuits/sample085/sample085.circuit.simple-route.json",
+      "connectionCount": 34,
+      "obstacleCount": 125,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_002",
+        "bga_pin_003",
+        "bga_pin_011",
+        "bga_pin_012",
+        "bga_pin_013",
+        "bga_pin_021",
+        "bga_pin_022",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.94,
+        "maxX": 7.94,
+        "minY": -7.94,
+        "maxY": 7.94
+      }
+    },
+    {
+      "sampleName": "sample086",
+      "sourceFile": "circuits/sample086/sample086.circuit.simple-route.json",
+      "connectionCount": 41,
+      "obstacleCount": 137,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 96,
+      "missingBgaPadCount": 25,
+      "missingBgaPads": [
+        "bga_pin_002",
+        "bga_pin_003",
+        "bga_pin_008",
+        "bga_pin_019",
+        "bga_pin_029",
+        "bga_pin_034",
+        "bga_pin_035",
+        "bga_pin_036",
+        "bga_pin_042",
+        "bga_pin_047",
+        "bga_pin_055",
+        "bga_pin_057",
+        "bga_pin_059",
+        "bga_pin_065",
+        "bga_pin_077",
+        "bga_pin_084",
+        "bga_pin_086",
+        "bga_pin_088",
+        "bga_pin_091",
+        "bga_pin_095",
+        "bga_pin_096",
+        "bga_pin_099",
+        "bga_pin_114",
+        "bga_pin_117",
+        "bga_pin_119"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.585,
+        "maxX": 8.585,
+        "minY": -8.585,
+        "maxY": 8.585
+      }
+    },
+    {
+      "sampleName": "sample087",
+      "sourceFile": "circuits/sample087/sample087.circuit.simple-route.json",
+      "connectionCount": 53,
+      "obstacleCount": 170,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 117,
+      "missingBgaPadCount": 27,
+      "missingBgaPads": [
+        "bga_pin_006",
+        "bga_pin_013",
+        "bga_pin_015",
+        "bga_pin_019",
+        "bga_pin_023",
+        "bga_pin_027",
+        "bga_pin_036",
+        "bga_pin_038",
+        "bga_pin_056",
+        "bga_pin_057",
+        "bga_pin_060",
+        "bga_pin_062",
+        "bga_pin_065",
+        "bga_pin_066",
+        "bga_pin_068",
+        "bga_pin_078",
+        "bga_pin_088",
+        "bga_pin_090",
+        "bga_pin_093",
+        "bga_pin_097",
+        "bga_pin_100",
+        "bga_pin_106",
+        "bga_pin_108",
+        "bga_pin_109",
+        "bga_pin_122",
+        "bga_pin_123",
+        "bga_pin_136"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.405,
+        "maxX": 9.405,
+        "minY": -9.405,
+        "maxY": 9.405
+      }
+    },
+    {
+      "sampleName": "sample088",
+      "sourceFile": "circuits/sample088/sample088.circuit.simple-route.json",
+      "connectionCount": 106,
+      "obstacleCount": 269,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_093",
+        "bga_pin_095",
+        "bga_pin_097",
+        "bga_pin_099",
+        "bga_pin_101",
+        "bga_pin_103"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.66,
+        "maxX": 11.66,
+        "minY": -11.66,
+        "maxY": 11.66
+      }
+    },
+    {
+      "sampleName": "sample089",
+      "sourceFile": "circuits/sample089/sample089.circuit.simple-route.json",
+      "connectionCount": 17,
+      "obstacleCount": 51,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_009",
+        "bga_pin_021"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.745,
+        "maxX": 5.745,
+        "minY": -5.745,
+        "maxY": 5.745
+      }
+    },
+    {
+      "sampleName": "sample090",
+      "sourceFile": "circuits/sample090/sample090.circuit.simple-route.json",
+      "connectionCount": 20,
+      "obstacleCount": 65,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.25,
+        "maxX": 6.25,
+        "minY": -6.25,
+        "maxY": 6.25
+      }
+    },
+    {
+      "sampleName": "sample091",
+      "sourceFile": "circuits/sample091/sample091.circuit.simple-route.json",
+      "connectionCount": 24,
+      "obstacleCount": 85,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.79,
+        "maxX": 6.79,
+        "minY": -6.79,
+        "maxY": 6.79
+      }
+    },
+    {
+      "sampleName": "sample092",
+      "sourceFile": "circuits/sample092/sample092.circuit.simple-route.json",
+      "connectionCount": 27,
+      "obstacleCount": 104,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.295,
+        "maxX": 7.295,
+        "minY": -7.295,
+        "maxY": 7.295
+      }
+    },
+    {
+      "sampleName": "sample093",
+      "sourceFile": "circuits/sample093/sample093.circuit.simple-route.json",
+      "connectionCount": 57,
+      "obstacleCount": 148,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_078",
+        "bga_pin_079",
+        "bga_pin_080",
+        "bga_pin_088",
+        "bga_pin_089",
+        "bga_pin_090",
+        "bga_pin_098",
+        "bga_pin_099",
+        "bga_pin_100"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.745,
+        "maxX": 8.745,
+        "minY": -8.745,
+        "maxY": 8.745
+      }
+    },
+    {
+      "sampleName": "sample094",
+      "sourceFile": "circuits/sample094/sample094.circuit.simple-route.json",
+      "connectionCount": 65,
+      "obstacleCount": 163,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 98,
+      "missingBgaPadCount": 23,
+      "missingBgaPads": [
+        "bga_pin_003",
+        "bga_pin_009",
+        "bga_pin_015",
+        "bga_pin_034",
+        "bga_pin_045",
+        "bga_pin_046",
+        "bga_pin_056",
+        "bga_pin_057",
+        "bga_pin_061",
+        "bga_pin_062",
+        "bga_pin_064",
+        "bga_pin_069",
+        "bga_pin_070",
+        "bga_pin_082",
+        "bga_pin_090",
+        "bga_pin_091",
+        "bga_pin_093",
+        "bga_pin_094",
+        "bga_pin_099",
+        "bga_pin_101",
+        "bga_pin_102",
+        "bga_pin_105",
+        "bga_pin_113"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.425,
+        "maxX": 9.425,
+        "minY": -9.425,
+        "maxY": 9.425
+      }
+    },
+    {
+      "sampleName": "sample095",
+      "sourceFile": "circuits/sample095/sample095.circuit.simple-route.json",
+      "connectionCount": 65,
+      "obstacleCount": 184,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 119,
+      "missingBgaPadCount": 25,
+      "missingBgaPads": [
+        "bga_pin_005",
+        "bga_pin_007",
+        "bga_pin_013",
+        "bga_pin_024",
+        "bga_pin_032",
+        "bga_pin_057",
+        "bga_pin_067",
+        "bga_pin_070",
+        "bga_pin_075",
+        "bga_pin_077",
+        "bga_pin_080",
+        "bga_pin_083",
+        "bga_pin_084",
+        "bga_pin_090",
+        "bga_pin_104",
+        "bga_pin_107",
+        "bga_pin_109",
+        "bga_pin_112",
+        "bga_pin_113",
+        "bga_pin_120",
+        "bga_pin_121",
+        "bga_pin_123",
+        "bga_pin_126",
+        "bga_pin_132",
+        "bga_pin_136"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.825,
+        "maxX": 9.825,
+        "minY": -9.825,
+        "maxY": 9.825
+      }
+    },
+    {
+      "sampleName": "sample096",
+      "sourceFile": "circuits/sample096/sample096.circuit.simple-route.json",
+      "connectionCount": 89,
+      "obstacleCount": 252,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_080",
+        "bga_pin_082",
+        "bga_pin_084",
+        "bga_pin_086",
+        "bga_pin_088",
+        "bga_pin_090"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.065,
+        "maxX": 11.065,
+        "minY": -11.065,
+        "maxY": 11.065
+      }
+    },
+    {
+      "sampleName": "sample097",
+      "sourceFile": "circuits/sample097/sample097.circuit.simple-route.json",
+      "connectionCount": 14,
+      "obstacleCount": 48,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_009",
+        "bga_pin_021"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.64,
+        "maxX": 5.64,
+        "minY": -5.64,
+        "maxY": 5.64
+      }
+    },
+    {
+      "sampleName": "sample098",
+      "sourceFile": "circuits/sample098/sample098.circuit.simple-route.json",
+      "connectionCount": 19,
+      "obstacleCount": 64,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.215,
+        "maxX": 6.215,
+        "minY": -6.215,
+        "maxY": 6.215
+      }
+    },
+    {
+      "sampleName": "sample099",
+      "sourceFile": "circuits/sample099/sample099.circuit.simple-route.json",
+      "connectionCount": 22,
+      "obstacleCount": 83,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.72,
+        "maxX": 6.72,
+        "minY": -6.72,
+        "maxY": 6.72
+      }
+    },
+    {
+      "sampleName": "sample100",
+      "sourceFile": "circuits/sample100/sample100.circuit.simple-route.json",
+      "connectionCount": 52,
+      "obstacleCount": 129,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.17,
+        "maxX": 8.17,
+        "minY": -8.17,
+        "maxY": 8.17
+      }
+    },
+    {
+      "sampleName": "sample101",
+      "sourceFile": "circuits/sample101/sample101.circuit.simple-route.json",
+      "connectionCount": 48,
+      "obstacleCount": 139,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_078",
+        "bga_pin_079",
+        "bga_pin_080",
+        "bga_pin_088",
+        "bga_pin_089",
+        "bga_pin_090",
+        "bga_pin_098",
+        "bga_pin_099",
+        "bga_pin_100"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.43,
+        "maxX": 8.43,
+        "minY": -8.43,
+        "maxY": 8.43
+      }
+    },
+    {
+      "sampleName": "sample102",
+      "sourceFile": "circuits/sample102/sample102.circuit.simple-route.json",
+      "connectionCount": 54,
+      "obstacleCount": 153,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 99,
+      "missingBgaPadCount": 22,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_018",
+        "bga_pin_021",
+        "bga_pin_024",
+        "bga_pin_025",
+        "bga_pin_026",
+        "bga_pin_031",
+        "bga_pin_033",
+        "bga_pin_048",
+        "bga_pin_050",
+        "bga_pin_051",
+        "bga_pin_053",
+        "bga_pin_060",
+        "bga_pin_069",
+        "bga_pin_070",
+        "bga_pin_071",
+        "bga_pin_080",
+        "bga_pin_085",
+        "bga_pin_093",
+        "bga_pin_098",
+        "bga_pin_099",
+        "bga_pin_113"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.04,
+        "maxX": 9.04,
+        "minY": -9.04,
+        "maxY": 9.04
+      }
+    },
+    {
+      "sampleName": "sample103",
+      "sourceFile": "circuits/sample103/sample103.circuit.simple-route.json",
+      "connectionCount": 77,
+      "obstacleCount": 198,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 121,
+      "missingBgaPadCount": 23,
+      "missingBgaPads": [
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_022",
+        "bga_pin_023",
+        "bga_pin_024",
+        "bga_pin_034",
+        "bga_pin_037",
+        "bga_pin_040",
+        "bga_pin_042",
+        "bga_pin_050",
+        "bga_pin_054",
+        "bga_pin_061",
+        "bga_pin_062",
+        "bga_pin_091",
+        "bga_pin_092",
+        "bga_pin_095",
+        "bga_pin_102",
+        "bga_pin_122",
+        "bga_pin_125",
+        "bga_pin_129",
+        "bga_pin_131",
+        "bga_pin_139",
+        "bga_pin_143"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -10.245,
+        "maxX": 10.245,
+        "minY": -10.245,
+        "maxY": 10.245
+      }
+    },
+    {
+      "sampleName": "sample104",
+      "sourceFile": "circuits/sample104/sample104.circuit.simple-route.json",
+      "connectionCount": 72,
+      "obstacleCount": 235,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_067",
+        "bga_pin_069",
+        "bga_pin_071",
+        "bga_pin_073",
+        "bga_pin_075",
+        "bga_pin_077"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.47,
+        "maxX": 10.47,
+        "minY": -10.47,
+        "maxY": 10.47
+      }
+    },
+    {
+      "sampleName": "sample105",
+      "sourceFile": "circuits/sample105/sample105.circuit.simple-route.json",
+      "connectionCount": 22,
+      "obstacleCount": 56,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_009",
+        "bga_pin_021"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.92,
+        "maxX": 5.92,
+        "minY": -5.92,
+        "maxY": 5.92
+      }
+    },
+    {
+      "sampleName": "sample106",
+      "sourceFile": "circuits/sample106/sample106.circuit.simple-route.json",
+      "connectionCount": 17,
+      "obstacleCount": 62,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.145,
+        "maxX": 6.145,
+        "minY": -6.145,
+        "maxY": 6.145
+      }
+    },
+    {
+      "sampleName": "sample107",
+      "sourceFile": "circuits/sample107/sample107.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 82,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.685,
+        "maxX": 6.685,
+        "minY": -6.685,
+        "maxY": 6.685
+      }
+    },
+    {
+      "sampleName": "sample108",
+      "sourceFile": "circuits/sample108/sample108.circuit.simple-route.json",
+      "connectionCount": 50,
+      "obstacleCount": 127,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.1,
+        "maxX": 8.1,
+        "minY": -8.1,
+        "maxY": 8.1
+      }
+    },
+    {
+      "sampleName": "sample109",
+      "sourceFile": "circuits/sample109/sample109.circuit.simple-route.json",
+      "connectionCount": 38,
+      "obstacleCount": 129,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_078",
+        "bga_pin_079",
+        "bga_pin_080",
+        "bga_pin_088",
+        "bga_pin_089",
+        "bga_pin_090",
+        "bga_pin_098",
+        "bga_pin_099",
+        "bga_pin_100"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.08,
+        "maxX": 8.08,
+        "minY": -8.08,
+        "maxY": 8.08
+      }
+    },
+    {
+      "sampleName": "sample110",
+      "sourceFile": "circuits/sample110/sample110.circuit.simple-route.json",
+      "connectionCount": 42,
+      "obstacleCount": 142,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 100,
+      "missingBgaPadCount": 21,
+      "missingBgaPads": [
+        "bga_pin_007",
+        "bga_pin_011",
+        "bga_pin_026",
+        "bga_pin_032",
+        "bga_pin_033",
+        "bga_pin_035",
+        "bga_pin_036",
+        "bga_pin_052",
+        "bga_pin_057",
+        "bga_pin_062",
+        "bga_pin_063",
+        "bga_pin_064",
+        "bga_pin_071",
+        "bga_pin_079",
+        "bga_pin_080",
+        "bga_pin_086",
+        "bga_pin_087",
+        "bga_pin_096",
+        "bga_pin_099",
+        "bga_pin_110",
+        "bga_pin_113"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.62,
+        "maxX": 8.62,
+        "minY": -8.62,
+        "maxY": 8.62
+      }
+    },
+    {
+      "sampleName": "sample111",
+      "sourceFile": "circuits/sample111/sample111.circuit.simple-route.json",
+      "connectionCount": 45,
+      "obstacleCount": 167,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 122,
+      "missingBgaPadCount": 22,
+      "missingBgaPads": [
+        "bga_pin_002",
+        "bga_pin_005",
+        "bga_pin_011",
+        "bga_pin_034",
+        "bga_pin_039",
+        "bga_pin_044",
+        "bga_pin_057",
+        "bga_pin_058",
+        "bga_pin_059",
+        "bga_pin_062",
+        "bga_pin_080",
+        "bga_pin_091",
+        "bga_pin_098",
+        "bga_pin_109",
+        "bga_pin_110",
+        "bga_pin_111",
+        "bga_pin_115",
+        "bga_pin_125",
+        "bga_pin_133",
+        "bga_pin_137",
+        "bga_pin_140",
+        "bga_pin_144"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.125,
+        "maxX": 9.125,
+        "minY": -9.125,
+        "maxY": 9.125
+      }
+    },
+    {
+      "sampleName": "sample112",
+      "sourceFile": "circuits/sample112/sample112.circuit.simple-route.json",
+      "connectionCount": 55,
+      "obstacleCount": 218,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_067",
+        "bga_pin_069",
+        "bga_pin_071",
+        "bga_pin_073",
+        "bga_pin_075",
+        "bga_pin_077"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.875,
+        "maxX": 9.875,
+        "minY": -9.875,
+        "maxY": 9.875
+      }
+    },
+    {
+      "sampleName": "sample113",
+      "sourceFile": "circuits/sample113/sample113.circuit.simple-route.json",
+      "connectionCount": 19,
+      "obstacleCount": 53,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_020"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.815,
+        "maxX": 5.815,
+        "minY": -5.815,
+        "maxY": 5.815
+      }
+    },
+    {
+      "sampleName": "sample114",
+      "sourceFile": "circuits/sample114/sample114.circuit.simple-route.json",
+      "connectionCount": 16,
+      "obstacleCount": 61,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.11,
+        "maxX": 6.11,
+        "minY": -6.11,
+        "maxY": 6.11
+      }
+    },
+    {
+      "sampleName": "sample115",
+      "sourceFile": "circuits/sample115/sample115.circuit.simple-route.json",
+      "connectionCount": 41,
+      "obstacleCount": 102,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.385,
+        "maxX": 7.385,
+        "minY": -7.385,
+        "maxY": 7.385
+      }
+    },
+    {
+      "sampleName": "sample116",
+      "sourceFile": "circuits/sample116/sample116.circuit.simple-route.json",
+      "connectionCount": 48,
+      "obstacleCount": 125,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.03,
+        "maxX": 8.03,
+        "minY": -8.03,
+        "maxY": 8.03
+      }
+    },
+    {
+      "sampleName": "sample117",
+      "sourceFile": "circuits/sample117/sample117.circuit.simple-route.json",
+      "connectionCount": 61,
+      "obstacleCount": 152,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_071",
+        "bga_pin_072",
+        "bga_pin_073",
+        "bga_pin_081",
+        "bga_pin_082",
+        "bga_pin_083",
+        "bga_pin_091",
+        "bga_pin_092",
+        "bga_pin_093"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.885,
+        "maxX": 8.885,
+        "minY": -8.885,
+        "maxY": 8.885
+      }
+    },
+    {
+      "sampleName": "sample118",
+      "sourceFile": "circuits/sample118/sample118.circuit.simple-route.json",
+      "connectionCount": 67,
+      "obstacleCount": 169,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 102,
+      "missingBgaPadCount": 19,
+      "missingBgaPads": [
+        "bga_pin_005",
+        "bga_pin_010",
+        "bga_pin_015",
+        "bga_pin_021",
+        "bga_pin_026",
+        "bga_pin_031",
+        "bga_pin_033",
+        "bga_pin_037",
+        "bga_pin_058",
+        "bga_pin_060",
+        "bga_pin_064",
+        "bga_pin_072",
+        "bga_pin_081",
+        "bga_pin_087",
+        "bga_pin_094",
+        "bga_pin_107",
+        "bga_pin_111",
+        "bga_pin_112",
+        "bga_pin_114"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.495,
+        "maxX": 9.495,
+        "minY": -9.495,
+        "maxY": 9.495
+      }
+    },
+    {
+      "sampleName": "sample119",
+      "sourceFile": "circuits/sample119/sample119.circuit.simple-route.json",
+      "connectionCount": 58,
+      "obstacleCount": 182,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 124,
+      "missingBgaPadCount": 20,
+      "missingBgaPads": [
+        "bga_pin_009",
+        "bga_pin_028",
+        "bga_pin_045",
+        "bga_pin_059",
+        "bga_pin_062",
+        "bga_pin_063",
+        "bga_pin_071",
+        "bga_pin_074",
+        "bga_pin_079",
+        "bga_pin_081",
+        "bga_pin_092",
+        "bga_pin_093",
+        "bga_pin_096",
+        "bga_pin_103",
+        "bga_pin_111",
+        "bga_pin_113",
+        "bga_pin_130",
+        "bga_pin_131",
+        "bga_pin_133",
+        "bga_pin_139"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.58,
+        "maxX": 9.58,
+        "minY": -9.58,
+        "maxY": 9.58
+      }
+    },
+    {
+      "sampleName": "sample120",
+      "sourceFile": "circuits/sample120/sample120.circuit.simple-route.json",
+      "connectionCount": 96,
+      "obstacleCount": 259,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_054",
+        "bga_pin_056",
+        "bga_pin_058",
+        "bga_pin_060",
+        "bga_pin_062",
+        "bga_pin_064"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.31,
+        "maxX": 11.31,
+        "minY": -11.31,
+        "maxY": 11.31
+      }
+    },
+    {
+      "sampleName": "sample121",
+      "sourceFile": "circuits/sample121/sample121.circuit.simple-route.json",
+      "connectionCount": 15,
+      "obstacleCount": 49,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_020"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.675,
+        "maxX": 5.675,
+        "minY": -5.675,
+        "maxY": 5.675
+      }
+    },
+    {
+      "sampleName": "sample122",
+      "sourceFile": "circuits/sample122/sample122.circuit.simple-route.json",
+      "connectionCount": 15,
+      "obstacleCount": 60,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.075,
+        "maxX": 6.075,
+        "minY": -6.075,
+        "maxY": 6.075
+      }
+    },
+    {
+      "sampleName": "sample123",
+      "sourceFile": "circuits/sample123/sample123.circuit.simple-route.json",
+      "connectionCount": 39,
+      "obstacleCount": 100,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.315,
+        "maxX": 7.315,
+        "minY": -7.315,
+        "maxY": 7.315
+      }
+    },
+    {
+      "sampleName": "sample124",
+      "sourceFile": "circuits/sample124/sample124.circuit.simple-route.json",
+      "connectionCount": 46,
+      "obstacleCount": 123,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.96,
+        "maxX": 7.96,
+        "minY": -7.96,
+        "maxY": 7.96
+      }
+    },
+    {
+      "sampleName": "sample125",
+      "sourceFile": "circuits/sample125/sample125.circuit.simple-route.json",
+      "connectionCount": 52,
+      "obstacleCount": 143,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_071",
+        "bga_pin_072",
+        "bga_pin_073",
+        "bga_pin_081",
+        "bga_pin_082",
+        "bga_pin_083",
+        "bga_pin_091",
+        "bga_pin_092",
+        "bga_pin_093"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.57,
+        "maxX": 8.57,
+        "minY": -8.57,
+        "maxY": 8.57
+      }
+    },
+    {
+      "sampleName": "sample126",
+      "sourceFile": "circuits/sample126/sample126.circuit.simple-route.json",
+      "connectionCount": 55,
+      "obstacleCount": 158,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 103,
+      "missingBgaPadCount": 18,
+      "missingBgaPads": [
+        "bga_pin_004",
+        "bga_pin_015",
+        "bga_pin_025",
+        "bga_pin_031",
+        "bga_pin_034",
+        "bga_pin_040",
+        "bga_pin_046",
+        "bga_pin_047",
+        "bga_pin_072",
+        "bga_pin_078",
+        "bga_pin_083",
+        "bga_pin_091",
+        "bga_pin_092",
+        "bga_pin_094",
+        "bga_pin_098",
+        "bga_pin_104",
+        "bga_pin_105",
+        "bga_pin_113"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.075,
+        "maxX": 9.075,
+        "minY": -9.075,
+        "maxY": 9.075
+      }
+    },
+    {
+      "sampleName": "sample127",
+      "sourceFile": "circuits/sample127/sample127.circuit.simple-route.json",
+      "connectionCount": 70,
+      "obstacleCount": 195,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 125,
+      "missingBgaPadCount": 19,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_006",
+        "bga_pin_018",
+        "bga_pin_020",
+        "bga_pin_022",
+        "bga_pin_033",
+        "bga_pin_037",
+        "bga_pin_041",
+        "bga_pin_050",
+        "bga_pin_054",
+        "bga_pin_056",
+        "bga_pin_066",
+        "bga_pin_068",
+        "bga_pin_079",
+        "bga_pin_083",
+        "bga_pin_084",
+        "bga_pin_108",
+        "bga_pin_135",
+        "bga_pin_144"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -10,
+        "maxX": 10,
+        "minY": -10,
+        "maxY": 10
+      }
+    },
+    {
+      "sampleName": "sample128",
+      "sourceFile": "circuits/sample128/sample128.circuit.simple-route.json",
+      "connectionCount": 79,
+      "obstacleCount": 242,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_041",
+        "bga_pin_043",
+        "bga_pin_045",
+        "bga_pin_047",
+        "bga_pin_049",
+        "bga_pin_051"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.715,
+        "maxX": 10.715,
+        "minY": -10.715,
+        "maxY": 10.715
+      }
+    },
+    {
+      "sampleName": "sample129",
+      "sourceFile": "circuits/sample129/sample129.circuit.simple-route.json",
+      "connectionCount": 12,
+      "obstacleCount": 46,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_020"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.57,
+        "maxX": 5.57,
+        "minY": -5.57,
+        "maxY": 5.57
+      }
+    },
+    {
+      "sampleName": "sample130",
+      "sourceFile": "circuits/sample130/sample130.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 75,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.6,
+        "maxX": 6.6,
+        "minY": -6.6,
+        "maxY": 6.6
+      }
+    },
+    {
+      "sampleName": "sample131",
+      "sourceFile": "circuits/sample131/sample131.circuit.simple-route.json",
+      "connectionCount": 37,
+      "obstacleCount": 98,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.245,
+        "maxX": 7.245,
+        "minY": -7.245,
+        "maxY": 7.245
+      }
+    },
+    {
+      "sampleName": "sample132",
+      "sourceFile": "circuits/sample132/sample132.circuit.simple-route.json",
+      "connectionCount": 43,
+      "obstacleCount": 120,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.855,
+        "maxX": 7.855,
+        "minY": -7.855,
+        "maxY": 7.855
+      }
+    },
+    {
+      "sampleName": "sample133",
+      "sourceFile": "circuits/sample133/sample133.circuit.simple-route.json",
+      "connectionCount": 42,
+      "obstacleCount": 133,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_071",
+        "bga_pin_072",
+        "bga_pin_073",
+        "bga_pin_081",
+        "bga_pin_082",
+        "bga_pin_083",
+        "bga_pin_091",
+        "bga_pin_092",
+        "bga_pin_093"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.22,
+        "maxX": 8.22,
+        "minY": -8.22,
+        "maxY": 8.22
+      }
+    },
+    {
+      "sampleName": "sample134",
+      "sourceFile": "circuits/sample134/sample134.circuit.simple-route.json",
+      "connectionCount": 43,
+      "obstacleCount": 147,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 104,
+      "missingBgaPadCount": 17,
+      "missingBgaPads": [
+        "bga_pin_003",
+        "bga_pin_004",
+        "bga_pin_014",
+        "bga_pin_019",
+        "bga_pin_021",
+        "bga_pin_042",
+        "bga_pin_048",
+        "bga_pin_057",
+        "bga_pin_071",
+        "bga_pin_077",
+        "bga_pin_083",
+        "bga_pin_084",
+        "bga_pin_096",
+        "bga_pin_101",
+        "bga_pin_115",
+        "bga_pin_118",
+        "bga_pin_120"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.655,
+        "maxX": 8.655,
+        "minY": -8.655,
+        "maxY": 8.655
+      }
+    },
+    {
+      "sampleName": "sample135",
+      "sourceFile": "circuits/sample135/sample135.circuit.simple-route.json",
+      "connectionCount": 83,
+      "obstacleCount": 210,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 127,
+      "missingBgaPadCount": 17,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_012",
+        "bga_pin_015",
+        "bga_pin_026",
+        "bga_pin_029",
+        "bga_pin_036",
+        "bga_pin_037",
+        "bga_pin_039",
+        "bga_pin_055",
+        "bga_pin_079",
+        "bga_pin_091",
+        "bga_pin_095",
+        "bga_pin_115",
+        "bga_pin_133",
+        "bga_pin_139",
+        "bga_pin_141",
+        "bga_pin_144"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -10.455,
+        "maxX": 10.455,
+        "minY": -10.455,
+        "maxY": 10.455
+      }
+    },
+    {
+      "sampleName": "sample136",
+      "sourceFile": "circuits/sample136/sample136.circuit.simple-route.json",
+      "connectionCount": 62,
+      "obstacleCount": 225,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_028",
+        "bga_pin_030",
+        "bga_pin_032",
+        "bga_pin_034",
+        "bga_pin_036",
+        "bga_pin_038"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.12,
+        "maxX": 10.12,
+        "minY": -10.12,
+        "maxY": 10.12
+      }
+    },
+    {
+      "sampleName": "sample137",
+      "sourceFile": "circuits/sample137/sample137.circuit.simple-route.json",
+      "connectionCount": 20,
+      "obstacleCount": 54,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_011",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.85,
+        "maxX": 5.85,
+        "minY": -5.85,
+        "maxY": 5.85
+      }
+    },
+    {
+      "sampleName": "sample138",
+      "sourceFile": "circuits/sample138/sample138.circuit.simple-route.json",
+      "connectionCount": 28,
+      "obstacleCount": 73,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.53,
+        "maxX": 6.53,
+        "minY": -6.53,
+        "maxY": 6.53
+      }
+    },
+    {
+      "sampleName": "sample139",
+      "sourceFile": "circuits/sample139/sample139.circuit.simple-route.json",
+      "connectionCount": 36,
+      "obstacleCount": 97,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.21,
+        "maxX": 7.21,
+        "minY": -7.21,
+        "maxY": 7.21
+      }
+    },
+    {
+      "sampleName": "sample140",
+      "sourceFile": "circuits/sample140/sample140.circuit.simple-route.json",
+      "connectionCount": 41,
+      "obstacleCount": 118,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.785,
+        "maxX": 7.785,
+        "minY": -7.785,
+        "maxY": 7.785
+      }
+    },
+    {
+      "sampleName": "sample141",
+      "sourceFile": "circuits/sample141/sample141.circuit.simple-route.json",
+      "connectionCount": 33,
+      "obstacleCount": 124,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_018",
+        "bga_pin_019",
+        "bga_pin_020",
+        "bga_pin_028",
+        "bga_pin_029",
+        "bga_pin_030"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.905,
+        "maxX": 7.905,
+        "minY": -7.905,
+        "maxY": 7.905
+      }
+    },
+    {
+      "sampleName": "sample142",
+      "sourceFile": "circuits/sample142/sample142.circuit.simple-route.json",
+      "connectionCount": 69,
+      "obstacleCount": 175,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 106,
+      "missingBgaPadCount": 15,
+      "missingBgaPads": [
+        "bga_pin_005",
+        "bga_pin_022",
+        "bga_pin_032",
+        "bga_pin_037",
+        "bga_pin_054",
+        "bga_pin_056",
+        "bga_pin_060",
+        "bga_pin_069",
+        "bga_pin_072",
+        "bga_pin_078",
+        "bga_pin_079",
+        "bga_pin_081",
+        "bga_pin_088",
+        "bga_pin_089",
+        "bga_pin_101"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.565,
+        "maxX": 9.565,
+        "minY": -9.565,
+        "maxY": 9.565
+      }
+    },
+    {
+      "sampleName": "sample143",
+      "sourceFile": "circuits/sample143/sample143.circuit.simple-route.json",
+      "connectionCount": 50,
+      "obstacleCount": 179,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 129,
+      "missingBgaPadCount": 15,
+      "missingBgaPads": [
+        "bga_pin_011",
+        "bga_pin_015",
+        "bga_pin_022",
+        "bga_pin_024",
+        "bga_pin_028",
+        "bga_pin_030",
+        "bga_pin_047",
+        "bga_pin_067",
+        "bga_pin_075",
+        "bga_pin_080",
+        "bga_pin_122",
+        "bga_pin_128",
+        "bga_pin_133",
+        "bga_pin_138",
+        "bga_pin_139"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.3,
+        "maxX": 9.3,
+        "minY": -9.3,
+        "maxY": 9.3
+      }
+    },
+    {
+      "sampleName": "sample144",
+      "sourceFile": "circuits/sample144/sample144.circuit.simple-route.json",
+      "connectionCount": 104,
+      "obstacleCount": 267,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_015",
+        "bga_pin_017",
+        "bga_pin_019",
+        "bga_pin_021",
+        "bga_pin_023",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.59,
+        "maxX": 11.59,
+        "minY": -11.59,
+        "maxY": 11.59
+      }
+    },
+    {
+      "sampleName": "sample145",
+      "sourceFile": "circuits/sample145/sample145.circuit.simple-route.json",
+      "connectionCount": 17,
+      "obstacleCount": 51,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_011",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.745,
+        "maxX": 5.745,
+        "minY": -5.745,
+        "maxY": 5.745
+      }
+    },
+    {
+      "sampleName": "sample146",
+      "sourceFile": "circuits/sample146/sample146.circuit.simple-route.json",
+      "connectionCount": 27,
+      "obstacleCount": 72,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.495,
+        "maxX": 6.495,
+        "minY": -6.495,
+        "maxY": 6.495
+      }
+    },
+    {
+      "sampleName": "sample147",
+      "sourceFile": "circuits/sample147/sample147.circuit.simple-route.json",
+      "connectionCount": 34,
+      "obstacleCount": 95,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.14,
+        "maxX": 7.14,
+        "minY": -7.14,
+        "maxY": 7.14
+      }
+    },
+    {
+      "sampleName": "sample148",
+      "sourceFile": "circuits/sample148/sample148.circuit.simple-route.json",
+      "connectionCount": 39,
+      "obstacleCount": 116,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.715,
+        "maxX": 7.715,
+        "minY": -7.715,
+        "maxY": 7.715
+      }
+    },
+    {
+      "sampleName": "sample149",
+      "sourceFile": "circuits/sample149/sample149.circuit.simple-route.json",
+      "connectionCount": 56,
+      "obstacleCount": 147,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_018",
+        "bga_pin_019",
+        "bga_pin_020",
+        "bga_pin_028",
+        "bga_pin_029",
+        "bga_pin_030"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.71,
+        "maxX": 8.71,
+        "minY": -8.71,
+        "maxY": 8.71
+      }
+    },
+    {
+      "sampleName": "sample150",
+      "sourceFile": "circuits/sample150/sample150.circuit.simple-route.json",
+      "connectionCount": 56,
+      "obstacleCount": 163,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 107,
+      "missingBgaPadCount": 14,
+      "missingBgaPads": [
+        "bga_pin_003",
+        "bga_pin_007",
+        "bga_pin_011",
+        "bga_pin_013",
+        "bga_pin_033",
+        "bga_pin_057",
+        "bga_pin_062",
+        "bga_pin_065",
+        "bga_pin_076",
+        "bga_pin_080",
+        "bga_pin_088",
+        "bga_pin_090",
+        "bga_pin_097",
+        "bga_pin_114"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.11,
+        "maxX": 9.11,
+        "minY": -9.11,
+        "maxY": 9.11
+      }
+    },
+    {
+      "sampleName": "sample151",
+      "sourceFile": "circuits/sample151/sample151.circuit.simple-route.json",
+      "connectionCount": 62,
+      "obstacleCount": 192,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 130,
+      "missingBgaPadCount": 14,
+      "missingBgaPads": [
+        "bga_pin_014",
+        "bga_pin_029",
+        "bga_pin_033",
+        "bga_pin_071",
+        "bga_pin_075",
+        "bga_pin_077",
+        "bga_pin_087",
+        "bga_pin_094",
+        "bga_pin_112",
+        "bga_pin_118",
+        "bga_pin_120",
+        "bga_pin_129",
+        "bga_pin_135",
+        "bga_pin_140"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.72,
+        "maxX": 9.72,
+        "minY": -9.72,
+        "maxY": 9.72
+      }
+    },
+    {
+      "sampleName": "sample152",
+      "sourceFile": "circuits/sample152/sample152.circuit.simple-route.json",
+      "connectionCount": 87,
+      "obstacleCount": 250,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_145",
+        "bga_pin_147",
+        "bga_pin_149",
+        "bga_pin_151",
+        "bga_pin_153",
+        "bga_pin_155"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.995,
+        "maxX": 10.995,
+        "minY": -10.995,
+        "maxY": 10.995
+      }
+    },
+    {
+      "sampleName": "sample153",
+      "sourceFile": "circuits/sample153/sample153.circuit.simple-route.json",
+      "connectionCount": 13,
+      "obstacleCount": 47,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_011",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.605,
+        "maxX": 5.605,
+        "minY": -5.605,
+        "maxY": 5.605
+      }
+    },
+    {
+      "sampleName": "sample154",
+      "sourceFile": "circuits/sample154/sample154.circuit.simple-route.json",
+      "connectionCount": 26,
+      "obstacleCount": 71,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.46,
+        "maxX": 6.46,
+        "minY": -6.46,
+        "maxY": 6.46
+      }
+    },
+    {
+      "sampleName": "sample155",
+      "sourceFile": "circuits/sample155/sample155.circuit.simple-route.json",
+      "connectionCount": 32,
+      "obstacleCount": 93,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.07,
+        "maxX": 7.07,
+        "minY": -7.07,
+        "maxY": 7.07
+      }
+    },
+    {
+      "sampleName": "sample156",
+      "sourceFile": "circuits/sample156/sample156.circuit.simple-route.json",
+      "connectionCount": 37,
+      "obstacleCount": 114,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.645,
+        "maxX": 7.645,
+        "minY": -7.645,
+        "maxY": 7.645
+      }
+    },
+    {
+      "sampleName": "sample157",
+      "sourceFile": "circuits/sample157/sample157.circuit.simple-route.json",
+      "connectionCount": 47,
+      "obstacleCount": 138,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_009",
+        "bga_pin_010",
+        "bga_pin_018",
+        "bga_pin_019",
+        "bga_pin_020",
+        "bga_pin_028",
+        "bga_pin_029",
+        "bga_pin_030"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.395,
+        "maxX": 8.395,
+        "minY": -8.395,
+        "maxY": 8.395
+      }
+    },
+    {
+      "sampleName": "sample158",
+      "sourceFile": "circuits/sample158/sample158.circuit.simple-route.json",
+      "connectionCount": 44,
+      "obstacleCount": 153,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 109,
+      "missingBgaPadCount": 12,
+      "missingBgaPads": [
+        "bga_pin_006",
+        "bga_pin_021",
+        "bga_pin_030",
+        "bga_pin_063",
+        "bga_pin_073",
+        "bga_pin_075",
+        "bga_pin_084",
+        "bga_pin_085",
+        "bga_pin_102",
+        "bga_pin_114",
+        "bga_pin_117",
+        "bga_pin_118"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.69,
+        "maxX": 8.69,
+        "minY": -8.69,
+        "maxY": 8.69
+      }
+    },
+    {
+      "sampleName": "sample159",
+      "sourceFile": "circuits/sample159/sample159.circuit.simple-route.json",
+      "connectionCount": 76,
+      "obstacleCount": 208,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 132,
+      "missingBgaPadCount": 12,
+      "missingBgaPads": [
+        "bga_pin_026",
+        "bga_pin_032",
+        "bga_pin_038",
+        "bga_pin_040",
+        "bga_pin_042",
+        "bga_pin_058",
+        "bga_pin_072",
+        "bga_pin_073",
+        "bga_pin_091",
+        "bga_pin_111",
+        "bga_pin_112",
+        "bga_pin_117"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -10.21,
+        "maxX": 10.21,
+        "minY": -10.21,
+        "maxY": 10.21
+      }
+    },
+    {
+      "sampleName": "sample160",
+      "sourceFile": "circuits/sample160/sample160.circuit.simple-route.json",
+      "connectionCount": 70,
+      "obstacleCount": 233,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_132",
+        "bga_pin_134",
+        "bga_pin_136",
+        "bga_pin_138",
+        "bga_pin_140",
+        "bga_pin_142"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.4,
+        "maxX": 10.4,
+        "minY": -10.4,
+        "maxY": 10.4
+      }
+    },
+    {
+      "sampleName": "sample161",
+      "sourceFile": "circuits/sample161/sample161.circuit.simple-route.json",
+      "connectionCount": 22,
+      "obstacleCount": 56,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_011",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.92,
+        "maxX": 5.92,
+        "minY": -5.92,
+        "maxY": 5.92
+      }
+    },
+    {
+      "sampleName": "sample162",
+      "sourceFile": "circuits/sample162/sample162.circuit.simple-route.json",
+      "connectionCount": 25,
+      "obstacleCount": 70,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.425,
+        "maxX": 6.425,
+        "minY": -6.425,
+        "maxY": 6.425
+      }
+    },
+    {
+      "sampleName": "sample163",
+      "sourceFile": "circuits/sample163/sample163.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 91,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7,
+        "maxX": 7,
+        "minY": -7,
+        "maxY": 7
+      }
+    },
+    {
+      "sampleName": "sample164",
+      "sourceFile": "circuits/sample164/sample164.circuit.simple-route.json",
+      "connectionCount": 35,
+      "obstacleCount": 112,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.575,
+        "maxX": 7.575,
+        "minY": -7.575,
+        "maxY": 7.575
+      }
+    },
+    {
+      "sampleName": "sample165",
+      "sourceFile": "circuits/sample165/sample165.circuit.simple-route.json",
+      "connectionCount": 37,
+      "obstacleCount": 128,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_002",
+        "bga_pin_003",
+        "bga_pin_011",
+        "bga_pin_012",
+        "bga_pin_013",
+        "bga_pin_021",
+        "bga_pin_022",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.045,
+        "maxX": 8.045,
+        "minY": -8.045,
+        "maxY": 8.045
+      }
+    },
+    {
+      "sampleName": "sample166",
+      "sourceFile": "circuits/sample166/sample166.circuit.simple-route.json",
+      "connectionCount": 71,
+      "obstacleCount": 181,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 110,
+      "missingBgaPadCount": 11,
+      "missingBgaPads": [
+        "bga_pin_002",
+        "bga_pin_032",
+        "bga_pin_040",
+        "bga_pin_042",
+        "bga_pin_063",
+        "bga_pin_067",
+        "bga_pin_081",
+        "bga_pin_082",
+        "bga_pin_093",
+        "bga_pin_119",
+        "bga_pin_121"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.635,
+        "maxX": 9.635,
+        "minY": -9.635,
+        "maxY": 9.635
+      }
+    },
+    {
+      "sampleName": "sample167",
+      "sourceFile": "circuits/sample167/sample167.circuit.simple-route.json",
+      "connectionCount": 75,
+      "obstacleCount": 188,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 113,
+      "missingBgaPadCount": 31,
+      "missingBgaPads": [
+        "bga_pin_002",
+        "bga_pin_004",
+        "bga_pin_005",
+        "bga_pin_008",
+        "bga_pin_011",
+        "bga_pin_013",
+        "bga_pin_023",
+        "bga_pin_025",
+        "bga_pin_036",
+        "bga_pin_037",
+        "bga_pin_038",
+        "bga_pin_044",
+        "bga_pin_053",
+        "bga_pin_058",
+        "bga_pin_063",
+        "bga_pin_069",
+        "bga_pin_070",
+        "bga_pin_079",
+        "bga_pin_081",
+        "bga_pin_091",
+        "bga_pin_096",
+        "bga_pin_097",
+        "bga_pin_098",
+        "bga_pin_103",
+        "bga_pin_106",
+        "bga_pin_115",
+        "bga_pin_119",
+        "bga_pin_120",
+        "bga_pin_123",
+        "bga_pin_138",
+        "bga_pin_139"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -10.175,
+        "maxX": 10.175,
+        "minY": -10.175,
+        "maxY": 10.175
+      }
+    },
+    {
+      "sampleName": "sample168",
+      "sourceFile": "circuits/sample168/sample168.circuit.simple-route.json",
+      "connectionCount": 53,
+      "obstacleCount": 216,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_119",
+        "bga_pin_121",
+        "bga_pin_123",
+        "bga_pin_125",
+        "bga_pin_127",
+        "bga_pin_129"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.805,
+        "maxX": 9.805,
+        "minY": -9.805,
+        "maxY": 9.805
+      }
+    },
+    {
+      "sampleName": "sample169",
+      "sourceFile": "circuits/sample169/sample169.circuit.simple-route.json",
+      "connectionCount": 18,
+      "obstacleCount": 52,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_022"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.78,
+        "maxX": 5.78,
+        "minY": -5.78,
+        "maxY": 5.78
+      }
+    },
+    {
+      "sampleName": "sample170",
+      "sourceFile": "circuits/sample170/sample170.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 68,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.355,
+        "maxX": 6.355,
+        "minY": -6.355,
+        "maxY": 6.355
+      }
+    },
+    {
+      "sampleName": "sample171",
+      "sourceFile": "circuits/sample171/sample171.circuit.simple-route.json",
+      "connectionCount": 29,
+      "obstacleCount": 90,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.965,
+        "maxX": 6.965,
+        "minY": -6.965,
+        "maxY": 6.965
+      }
+    },
+    {
+      "sampleName": "sample172",
+      "sourceFile": "circuits/sample172/sample172.circuit.simple-route.json",
+      "connectionCount": 32,
+      "obstacleCount": 109,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.47,
+        "maxX": 7.47,
+        "minY": -7.47,
+        "maxY": 7.47
+      }
+    },
+    {
+      "sampleName": "sample173",
+      "sourceFile": "circuits/sample173/sample173.circuit.simple-route.json",
+      "connectionCount": 60,
+      "obstacleCount": 151,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_002",
+        "bga_pin_003",
+        "bga_pin_011",
+        "bga_pin_012",
+        "bga_pin_013",
+        "bga_pin_021",
+        "bga_pin_022",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.85,
+        "maxX": 8.85,
+        "minY": -8.85,
+        "maxY": 8.85
+      }
+    },
+    {
+      "sampleName": "sample174",
+      "sourceFile": "circuits/sample174/sample174.circuit.simple-route.json",
+      "connectionCount": 58,
+      "obstacleCount": 169,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 111,
+      "missingBgaPadCount": 10,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_025",
+        "bga_pin_044",
+        "bga_pin_055",
+        "bga_pin_063",
+        "bga_pin_067",
+        "bga_pin_089",
+        "bga_pin_091",
+        "bga_pin_100",
+        "bga_pin_118"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.18,
+        "maxX": 9.18,
+        "minY": -9.18,
+        "maxY": 9.18
+      }
+    },
+    {
+      "sampleName": "sample175",
+      "sourceFile": "circuits/sample175/sample175.circuit.simple-route.json",
+      "connectionCount": 46,
+      "obstacleCount": 161,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 115,
+      "missingBgaPadCount": 29,
+      "missingBgaPads": [
+        "bga_pin_008",
+        "bga_pin_011",
+        "bga_pin_014",
+        "bga_pin_022",
+        "bga_pin_023",
+        "bga_pin_038",
+        "bga_pin_039",
+        "bga_pin_050",
+        "bga_pin_055",
+        "bga_pin_060",
+        "bga_pin_063",
+        "bga_pin_069",
+        "bga_pin_081",
+        "bga_pin_084",
+        "bga_pin_085",
+        "bga_pin_086",
+        "bga_pin_089",
+        "bga_pin_094",
+        "bga_pin_098",
+        "bga_pin_099",
+        "bga_pin_109",
+        "bga_pin_110",
+        "bga_pin_119",
+        "bga_pin_122",
+        "bga_pin_123",
+        "bga_pin_130",
+        "bga_pin_135",
+        "bga_pin_137",
+        "bga_pin_141"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.16,
+        "maxX": 9.16,
+        "minY": -9.16,
+        "maxY": 9.16
+      }
+    },
+    {
+      "sampleName": "sample176",
+      "sourceFile": "circuits/sample176/sample176.circuit.simple-route.json",
+      "connectionCount": 94,
+      "obstacleCount": 257,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_119",
+        "bga_pin_121",
+        "bga_pin_123",
+        "bga_pin_125",
+        "bga_pin_127",
+        "bga_pin_129"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.24,
+        "maxX": 11.24,
+        "minY": -11.24,
+        "maxY": 11.24
+      }
+    },
+    {
+      "sampleName": "sample177",
+      "sourceFile": "circuits/sample177/sample177.circuit.simple-route.json",
+      "connectionCount": 15,
+      "obstacleCount": 49,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_022"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.675,
+        "maxX": 5.675,
+        "minY": -5.675,
+        "maxY": 5.675
+      }
+    },
+    {
+      "sampleName": "sample178",
+      "sourceFile": "circuits/sample178/sample178.circuit.simple-route.json",
+      "connectionCount": 22,
+      "obstacleCount": 67,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.32,
+        "maxX": 6.32,
+        "minY": -6.32,
+        "maxY": 6.32
+      }
+    },
+    {
+      "sampleName": "sample179",
+      "sourceFile": "circuits/sample179/sample179.circuit.simple-route.json",
+      "connectionCount": 27,
+      "obstacleCount": 88,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.895,
+        "maxX": 6.895,
+        "minY": -6.895,
+        "maxY": 6.895
+      }
+    },
+    {
+      "sampleName": "sample180",
+      "sourceFile": "circuits/sample180/sample180.circuit.simple-route.json",
+      "connectionCount": 30,
+      "obstacleCount": 107,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.4,
+        "maxX": 7.4,
+        "minY": -7.4,
+        "maxY": 7.4
+      }
+    },
+    {
+      "sampleName": "sample181",
+      "sourceFile": "circuits/sample181/sample181.circuit.simple-route.json",
+      "connectionCount": 51,
+      "obstacleCount": 142,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_002",
+        "bga_pin_003",
+        "bga_pin_011",
+        "bga_pin_012",
+        "bga_pin_013",
+        "bga_pin_021",
+        "bga_pin_022",
+        "bga_pin_023"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.535,
+        "maxX": 8.535,
+        "minY": -8.535,
+        "maxY": 8.535
+      }
+    },
+    {
+      "sampleName": "sample182",
+      "sourceFile": "circuits/sample182/sample182.circuit.simple-route.json",
+      "connectionCount": 38,
+      "obstacleCount": 134,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 96,
+      "missingBgaPadCount": 25,
+      "missingBgaPads": [
+        "bga_pin_003",
+        "bga_pin_005",
+        "bga_pin_009",
+        "bga_pin_017",
+        "bga_pin_024",
+        "bga_pin_029",
+        "bga_pin_032",
+        "bga_pin_036",
+        "bga_pin_037",
+        "bga_pin_040",
+        "bga_pin_046",
+        "bga_pin_052",
+        "bga_pin_053",
+        "bga_pin_063",
+        "bga_pin_067",
+        "bga_pin_068",
+        "bga_pin_072",
+        "bga_pin_100",
+        "bga_pin_101",
+        "bga_pin_103",
+        "bga_pin_104",
+        "bga_pin_109",
+        "bga_pin_111",
+        "bga_pin_118",
+        "bga_pin_121"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.48,
+        "maxX": 8.48,
+        "minY": -8.48,
+        "maxY": 8.48
+      }
+    },
+    {
+      "sampleName": "sample183",
+      "sourceFile": "circuits/sample183/sample183.circuit.simple-route.json",
+      "connectionCount": 58,
+      "obstacleCount": 175,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 117,
+      "missingBgaPadCount": 27,
+      "missingBgaPads": [
+        "bga_pin_009",
+        "bga_pin_013",
+        "bga_pin_015",
+        "bga_pin_017",
+        "bga_pin_022",
+        "bga_pin_027",
+        "bga_pin_034",
+        "bga_pin_039",
+        "bga_pin_042",
+        "bga_pin_045",
+        "bga_pin_050",
+        "bga_pin_053",
+        "bga_pin_056",
+        "bga_pin_063",
+        "bga_pin_064",
+        "bga_pin_070",
+        "bga_pin_072",
+        "bga_pin_078",
+        "bga_pin_081",
+        "bga_pin_089",
+        "bga_pin_093",
+        "bga_pin_096",
+        "bga_pin_102",
+        "bga_pin_115",
+        "bga_pin_120",
+        "bga_pin_128",
+        "bga_pin_129"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.58,
+        "maxX": 9.58,
+        "minY": -9.58,
+        "maxY": 9.58
+      }
+    },
+    {
+      "sampleName": "sample184",
+      "sourceFile": "circuits/sample184/sample184.circuit.simple-route.json",
+      "connectionCount": 77,
+      "obstacleCount": 240,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_106",
+        "bga_pin_108",
+        "bga_pin_110",
+        "bga_pin_112",
+        "bga_pin_114",
+        "bga_pin_116"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.645,
+        "maxX": 10.645,
+        "minY": -10.645,
+        "maxY": 10.645
+      }
+    },
+    {
+      "sampleName": "sample185",
+      "sourceFile": "circuits/sample185/sample185.circuit.simple-route.json",
+      "connectionCount": 11,
+      "obstacleCount": 45,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_022"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.535,
+        "maxX": 5.535,
+        "minY": -5.535,
+        "maxY": 5.535
+      }
+    },
+    {
+      "sampleName": "sample186",
+      "sourceFile": "circuits/sample186/sample186.circuit.simple-route.json",
+      "connectionCount": 21,
+      "obstacleCount": 66,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.285,
+        "maxX": 6.285,
+        "minY": -6.285,
+        "maxY": 6.285
+      }
+    },
+    {
+      "sampleName": "sample187",
+      "sourceFile": "circuits/sample187/sample187.circuit.simple-route.json",
+      "connectionCount": 25,
+      "obstacleCount": 86,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.825,
+        "maxX": 6.825,
+        "minY": -6.825,
+        "maxY": 6.825
+      }
+    },
+    {
+      "sampleName": "sample188",
+      "sourceFile": "circuits/sample188/sample188.circuit.simple-route.json",
+      "connectionCount": 28,
+      "obstacleCount": 105,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.33,
+        "maxX": 7.33,
+        "minY": -7.33,
+        "maxY": 7.33
+      }
+    },
+    {
+      "sampleName": "sample189",
+      "sourceFile": "circuits/sample189/sample189.circuit.simple-route.json",
+      "connectionCount": 41,
+      "obstacleCount": 132,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_078",
+        "bga_pin_079",
+        "bga_pin_080",
+        "bga_pin_088",
+        "bga_pin_089",
+        "bga_pin_090",
+        "bga_pin_098",
+        "bga_pin_099",
+        "bga_pin_100"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.185,
+        "maxX": 8.185,
+        "minY": -8.185,
+        "maxY": 8.185
+      }
+    },
+    {
+      "sampleName": "sample190",
+      "sourceFile": "circuits/sample190/sample190.circuit.simple-route.json",
+      "connectionCount": 61,
+      "obstacleCount": 158,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 97,
+      "missingBgaPadCount": 24,
+      "missingBgaPads": [
+        "bga_pin_001",
+        "bga_pin_002",
+        "bga_pin_006",
+        "bga_pin_008",
+        "bga_pin_013",
+        "bga_pin_032",
+        "bga_pin_036",
+        "bga_pin_049",
+        "bga_pin_052",
+        "bga_pin_054",
+        "bga_pin_057",
+        "bga_pin_058",
+        "bga_pin_069",
+        "bga_pin_070",
+        "bga_pin_072",
+        "bga_pin_078",
+        "bga_pin_085",
+        "bga_pin_086",
+        "bga_pin_102",
+        "bga_pin_103",
+        "bga_pin_106",
+        "bga_pin_107",
+        "bga_pin_116",
+        "bga_pin_119"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -9.285,
+        "maxX": 9.285,
+        "minY": -9.285,
+        "maxY": 9.285
+      }
+    },
+    {
+      "sampleName": "sample191",
+      "sourceFile": "circuits/sample191/sample191.circuit.simple-route.json",
+      "connectionCount": 69,
+      "obstacleCount": 187,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 118,
+      "missingBgaPadCount": 26,
+      "missingBgaPads": [
+        "bga_pin_003",
+        "bga_pin_004",
+        "bga_pin_010",
+        "bga_pin_014",
+        "bga_pin_015",
+        "bga_pin_021",
+        "bga_pin_026",
+        "bga_pin_027",
+        "bga_pin_030",
+        "bga_pin_033",
+        "bga_pin_053",
+        "bga_pin_056",
+        "bga_pin_061",
+        "bga_pin_066",
+        "bga_pin_068",
+        "bga_pin_070",
+        "bga_pin_075",
+        "bga_pin_077",
+        "bga_pin_087",
+        "bga_pin_090",
+        "bga_pin_092",
+        "bga_pin_097",
+        "bga_pin_104",
+        "bga_pin_119",
+        "bga_pin_143",
+        "bga_pin_144"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -9.965,
+        "maxX": 9.965,
+        "minY": -9.965,
+        "maxY": 9.965
+      }
+    },
+    {
+      "sampleName": "sample192",
+      "sourceFile": "circuits/sample192/sample192.circuit.simple-route.json",
+      "connectionCount": 60,
+      "obstacleCount": 223,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_093",
+        "bga_pin_095",
+        "bga_pin_097",
+        "bga_pin_099",
+        "bga_pin_101",
+        "bga_pin_103"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -10.05,
+        "maxX": 10.05,
+        "minY": -10.05,
+        "maxY": 10.05
+      }
+    },
+    {
+      "sampleName": "sample193",
+      "sourceFile": "circuits/sample193/sample193.circuit.simple-route.json",
+      "connectionCount": 20,
+      "obstacleCount": 54,
+      "fullBgaPadCount": 36,
+      "presentBgaPadCount": 34,
+      "missingBgaPadCount": 2,
+      "missingBgaPads": [
+        "bga_pin_009",
+        "bga_pin_021"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -5.85,
+        "maxX": 5.85,
+        "minY": -5.85,
+        "maxY": 5.85
+      }
+    },
+    {
+      "sampleName": "sample194",
+      "sourceFile": "circuits/sample194/sample194.circuit.simple-route.json",
+      "connectionCount": 19,
+      "obstacleCount": 64,
+      "fullBgaPadCount": 49,
+      "presentBgaPadCount": 45,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_018",
+        "bga_pin_024",
+        "bga_pin_025"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -6.215,
+        "maxX": 6.215,
+        "minY": -6.215,
+        "maxY": 6.215
+      }
+    },
+    {
+      "sampleName": "sample195",
+      "sourceFile": "circuits/sample195/sample195.circuit.simple-route.json",
+      "connectionCount": 23,
+      "obstacleCount": 84,
+      "fullBgaPadCount": 64,
+      "presentBgaPadCount": 61,
+      "missingBgaPadCount": 3,
+      "missingBgaPads": [
+        "bga_pin_010",
+        "bga_pin_028",
+        "bga_pin_046"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -6.755,
+        "maxX": 6.755,
+        "minY": -6.755,
+        "maxY": 6.755
+      }
+    },
+    {
+      "sampleName": "sample196",
+      "sourceFile": "circuits/sample196/sample196.circuit.simple-route.json",
+      "connectionCount": 26,
+      "obstacleCount": 103,
+      "fullBgaPadCount": 81,
+      "presentBgaPadCount": 77,
+      "missingBgaPadCount": 4,
+      "missingBgaPads": [
+        "bga_pin_017",
+        "bga_pin_033",
+        "bga_pin_049",
+        "bga_pin_065"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -7.26,
+        "maxX": 7.26,
+        "minY": -7.26,
+        "maxY": 7.26
+      }
+    },
+    {
+      "sampleName": "sample197",
+      "sourceFile": "circuits/sample197/sample197.circuit.simple-route.json",
+      "connectionCount": 32,
+      "obstacleCount": 123,
+      "fullBgaPadCount": 100,
+      "presentBgaPadCount": 91,
+      "missingBgaPadCount": 9,
+      "missingBgaPads": [
+        "bga_pin_078",
+        "bga_pin_079",
+        "bga_pin_080",
+        "bga_pin_088",
+        "bga_pin_089",
+        "bga_pin_090",
+        "bga_pin_098",
+        "bga_pin_099",
+        "bga_pin_100"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -7.87,
+        "maxX": 7.87,
+        "minY": -7.87,
+        "maxY": 7.87
+      }
+    },
+    {
+      "sampleName": "sample198",
+      "sourceFile": "circuits/sample198/sample198.circuit.simple-route.json",
+      "connectionCount": 50,
+      "obstacleCount": 148,
+      "fullBgaPadCount": 121,
+      "presentBgaPadCount": 98,
+      "missingBgaPadCount": 23,
+      "missingBgaPads": [
+        "bga_pin_004",
+        "bga_pin_011",
+        "bga_pin_022",
+        "bga_pin_024",
+        "bga_pin_026",
+        "bga_pin_027",
+        "bga_pin_032",
+        "bga_pin_033",
+        "bga_pin_038",
+        "bga_pin_044",
+        "bga_pin_050",
+        "bga_pin_054",
+        "bga_pin_061",
+        "bga_pin_070",
+        "bga_pin_072",
+        "bga_pin_082",
+        "bga_pin_084",
+        "bga_pin_086",
+        "bga_pin_091",
+        "bga_pin_107",
+        "bga_pin_111",
+        "bga_pin_116",
+        "bga_pin_120"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -8.9,
+        "maxX": 8.9,
+        "minY": -8.9,
+        "maxY": 8.9
+      }
+    },
+    {
+      "sampleName": "sample199",
+      "sourceFile": "circuits/sample199/sample199.circuit.simple-route.json",
+      "connectionCount": 39,
+      "obstacleCount": 159,
+      "fullBgaPadCount": 144,
+      "presentBgaPadCount": 120,
+      "missingBgaPadCount": 24,
+      "missingBgaPads": [
+        "bga_pin_005",
+        "bga_pin_009",
+        "bga_pin_011",
+        "bga_pin_023",
+        "bga_pin_025",
+        "bga_pin_027",
+        "bga_pin_031",
+        "bga_pin_035",
+        "bga_pin_057",
+        "bga_pin_060",
+        "bga_pin_061",
+        "bga_pin_068",
+        "bga_pin_073",
+        "bga_pin_078",
+        "bga_pin_088",
+        "bga_pin_093",
+        "bga_pin_095",
+        "bga_pin_099",
+        "bga_pin_113",
+        "bga_pin_124",
+        "bga_pin_139",
+        "bga_pin_140",
+        "bga_pin_141",
+        "bga_pin_144"
+      ],
+      "bgaLayer": "bottom",
+      "bounds": {
+        "minX": -8.915,
+        "maxX": 8.915,
+        "minY": -8.915,
+        "maxY": 8.915
+      }
+    },
+    {
+      "sampleName": "sample200",
+      "sourceFile": "circuits/sample200/sample200.circuit.simple-route.json",
+      "connectionCount": 102,
+      "obstacleCount": 265,
+      "fullBgaPadCount": 169,
+      "presentBgaPadCount": 163,
+      "missingBgaPadCount": 6,
+      "missingBgaPads": [
+        "bga_pin_080",
+        "bga_pin_082",
+        "bga_pin_084",
+        "bga_pin_086",
+        "bga_pin_088",
+        "bga_pin_090"
+      ],
+      "bgaLayer": "top",
+      "bounds": {
+        "minX": -11.52,
+        "maxX": 11.52,
+        "minY": -11.52,
+        "maxY": 11.52
+      }
+    }
+  ]
+}
