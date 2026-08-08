@@ -28,7 +28,7 @@
     "generate:readme-image": "bun scripts/generate-readme-image.mjs",
     "build:dataset-dist": "node scripts/build-dataset-dist.mjs",
     "build": "tsci build circuits/sample001/sample001.circuit.tsx",
-    "build:site": "cosmos-export",
+    "build:site": "cosmos-export && node scripts/copy-cosmos-assets.mjs",
     "snapshot": "tsci snapshot circuits/sample001/sample001.circuit.tsx",
     "snapshot:update": "tsci snapshot circuits/sample001/sample001.circuit.tsx --update",
     "start": "cosmos",
